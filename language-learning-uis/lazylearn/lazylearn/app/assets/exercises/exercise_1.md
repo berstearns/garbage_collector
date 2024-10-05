@@ -1,0 +1,10 @@
+# Exercise 1: Simple Present
+
+Fill the gap in the following sentence:
+
+I ___ (like) playing tennis.
+
+Options:
+1. like
+2. loves
+3. liked

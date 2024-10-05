@@ -1,0 +1,19 @@
+{
+  "name": "duolingo-clone-pwa",
+  "version": "1.0.0",
+  "description": "A minimalistic PWA clone of Duolingo.",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "npx http-server ./public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.7.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": []
+}
