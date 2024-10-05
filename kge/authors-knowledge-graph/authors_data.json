@@ -1,0 +1,3002 @@
+{
+  "Sigmund Freud": {
+    "school_of_thought": "Psychoanalysis",
+    "publications": [
+      {
+        "title": "The Interpretation of Dreams",
+        "year": 1899,
+        "topics": [
+          "dreams",
+          "unconscious mind",
+          "wish fulfillment",
+          "psychoanalysis",
+          "symbolism"
+        ]
+      },
+      {
+        "title": "Civilization and Its Discontents",
+        "year": 1930,
+        "topics": [
+          "civilization",
+          "human nature",
+          "conflict",
+          "instincts",
+          "discontent"
+        ]
+      },
+      {
+        "title": "Three Essays on the Theory of Sexuality",
+        "year": 1905,
+        "topics": [
+          "sexuality",
+          "development",
+          "psychoanalysis",
+          "childhood",
+          "libido"
+        ]
+      },
+      {
+        "title": "Beyond the Pleasure Principle",
+        "year": 1920,
+        "topics": [
+          "pleasure",
+          "death drive",
+          "repetition compulsion",
+          "instincts",
+          "psychoanalysis"
+        ]
+      },
+      {
+        "title": "The Ego and the Id",
+        "year": 1923,
+        "topics": [
+          "ego",
+          "id",
+          "psychoanalysis",
+          "mind structure",
+          "consciousness"
+        ]
+      }
+    ]
+  },
+  "Carl Jung": {
+    "school_of_thought": "Analytical Psychology",
+    "publications": [
+      {
+        "title": "Psychological Types",
+        "year": 1921,
+        "topics": [
+          "personality types",
+          "introversion",
+          "extraversion",
+          "archetypes",
+          "psyche"
+        ]
+      },
+      {
+        "title": "The Archetypes and the Collective Unconscious",
+        "year": 1959,
+        "topics": [
+          "archetypes",
+          "collective unconscious",
+          "psyche",
+          "symbols",
+          "dreams"
+        ]
+      },
+      {
+        "title": "Man and His Symbols",
+        "year": 1964,
+        "topics": [
+          "symbols",
+          "psyche",
+          "unconscious",
+          "dreams",
+          "consciousness"
+        ]
+      },
+      {
+        "title": "Memories, Dreams, Reflections",
+        "year": 1962,
+        "topics": [
+          "autobiography",
+          "psyche",
+          "unconscious",
+          "dreams",
+          "experiences"
+        ]
+      },
+      {
+        "title": "Modern Man in Search of a Soul",
+        "year": 1933,
+        "topics": [
+          "soul",
+          "psyche",
+          "modernity",
+          "consciousness",
+          "therapy"
+        ]
+      }
+    ]
+  },
+  "Immanuel Kant": {
+    "school_of_thought": "German Idealism",
+    "publications": [
+      {
+        "title": "Critique of Pure Reason",
+        "year": 1781,
+        "topics": [
+          "epistemology",
+          "metaphysics",
+          "reason",
+          "knowledge",
+          "a priori"
+        ]
+      },
+      {
+        "title": "Critique of Practical Reason",
+        "year": 1788,
+        "topics": [
+          "ethics",
+          "morality",
+          "practical reason",
+          "imperative",
+          "freedom"
+        ]
+      },
+      {
+        "title": "Critique of Judgment",
+        "year": 1790,
+        "topics": [
+          "aesthetics",
+          "teleology",
+          "judgment",
+          "beauty",
+          "sublime"
+        ]
+      },
+      {
+        "title": "Groundwork of the Metaphysics of Morals",
+        "year": 1785,
+        "topics": [
+          "morality",
+          "ethics",
+          "imperative",
+          "duty",
+          "reason"
+        ]
+      },
+      {
+        "title": "Prolegomena to Any Future Metaphysics",
+        "year": 1783,
+        "topics": [
+          "metaphysics",
+          "epistemology",
+          "knowledge",
+          "science",
+          "reason"
+        ]
+      }
+    ]
+  },
+  "Friedrich Nietzsche": {
+    "school_of_thought": "Existentialism",
+    "publications": [
+      {
+        "title": "Thus Spoke Zarathustra",
+        "year": 1883,
+        "topics": [
+          "nihilism",
+          "will to power",
+          "eternal recurrence",
+          "superman",
+          "individualism"
+        ]
+      },
+      {
+        "title": "Beyond Good and Evil",
+        "year": 1886,
+        "topics": [
+          "morality",
+          "philosophy",
+          "truth",
+          "values",
+          "power"
+        ]
+      },
+      {
+        "title": "The Birth of Tragedy",
+        "year": 1872,
+        "topics": [
+          "art",
+          "tragedy",
+          "Dionysian",
+          "Apollonian",
+          "culture"
+        ]
+      },
+      {
+        "title": "On the Genealogy of Morality",
+        "year": 1887,
+        "topics": [
+          "morality",
+          "values",
+          "power",
+          "history",
+          "genealogy"
+        ]
+      },
+      {
+        "title": "Ecce Homo",
+        "year": 1888,
+        "topics": [
+          "autobiography",
+          "philosophy",
+          "morality",
+          "truth",
+          "values"
+        ]
+      }
+    ]
+  },
+  "Jean-Paul Sartre": {
+    "school_of_thought": "Existentialism",
+    "publications": [
+      {
+        "title": "Being and Nothingness",
+        "year": 1943,
+        "topics": [
+          "existence",
+          "consciousness",
+          "freedom",
+          "being",
+          "nothingness"
+        ]
+      },
+      {
+        "title": "Nausea",
+        "year": 1938,
+        "topics": [
+          "existence",
+          "absurdity",
+          "freedom",
+          "alienation",
+          "meaning"
+        ]
+      },
+      {
+        "title": "Existentialism is a Humanism",
+        "year": 1946,
+        "topics": [
+          "existentialism",
+          "humanism",
+          "freedom",
+          "responsibility",
+          "meaning"
+        ]
+      },
+      {
+        "title": "The Age of Reason",
+        "year": 1945,
+        "topics": [
+          "freedom",
+          "responsibility",
+          "choice",
+          "rationality",
+          "individualism"
+        ]
+      },
+      {
+        "title": "The Words",
+        "year": 1964,
+        "topics": [
+          "autobiography",
+          "writing",
+          "existence",
+          "freedom",
+          "responsibility"
+        ]
+      }
+    ]
+  },
+  "B.F. Skinner": {
+    "school_of_thought": "Behaviorism",
+    "publications": [
+      {
+        "title": "Walden Two",
+        "year": 1948,
+        "topics": [
+          "utopia",
+          "behaviorism",
+          "society",
+          "conditioning",
+          "community"
+        ]
+      },
+      {
+        "title": "Beyond Freedom and Dignity",
+        "year": 1971,
+        "topics": [
+          "behaviorism",
+          "control",
+          "freedom",
+          "dignity",
+          "society"
+        ]
+      },
+      {
+        "title": "The Behavior of Organisms",
+        "year": 1938,
+        "topics": [
+          "behaviorism",
+          "conditioning",
+          "experiments",
+          "learning",
+          "reinforcement"
+        ]
+      },
+      {
+        "title": "Verbal Behavior",
+        "year": 1957,
+        "topics": [
+          "language",
+          "behaviorism",
+          "communication",
+          "learning",
+          "reinforcement"
+        ]
+      },
+      {
+        "title": "Science and Human Behavior",
+        "year": 1953,
+        "topics": [
+          "behaviorism",
+          "science",
+          "human behavior",
+          "psychology",
+          "control"
+        ]
+      }
+    ]
+  },
+  "Author 7": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 8": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 9": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 10": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 11": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 12": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 13": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 14": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 15": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 16": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 17": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 18": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 19": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 20": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 21": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 22": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 23": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 24": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 25": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 26": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 27": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 28": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 29": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 30": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 31": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 32": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 33": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 34": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 35": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 36": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 37": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 38": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 39": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 40": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 41": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 42": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 43": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 44": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 45": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 46": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 47": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 48": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 49": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  },
+  "Author 50": {
+    "school_of_thought": "Placeholder",
+    "publications": [
+      {
+        "title": "Publication Title 1",
+        "year": 2000,
+        "topics": [
+          "Topic1",
+          "Topic2",
+          "Topic3",
+          "Topic4",
+          "Topic5"
+        ]
+      },
+      {
+        "title": "Publication Title 2",
+        "year": 2001,
+        "topics": [
+          "Topic6",
+          "Topic7",
+          "Topic8",
+          "Topic9",
+          "Topic10"
+        ]
+      },
+      {
+        "title": "Publication Title 3",
+        "year": 2002,
+        "topics": [
+          "Topic11",
+          "Topic12",
+          "Topic13",
+          "Topic14",
+          "Topic15"
+        ]
+      },
+      {
+        "title": "Publication Title 4",
+        "year": 2003,
+        "topics": [
+          "Topic16",
+          "Topic17",
+          "Topic18",
+          "Topic19",
+          "Topic20"
+        ]
+      },
+      {
+        "title": "Publication Title 5",
+        "year": 2004,
+        "topics": [
+          "Topic21",
+          "Topic22",
+          "Topic23",
+          "Topic24",
+          "Topic25"
+        ]
+      }
+    ]
+  }
+}

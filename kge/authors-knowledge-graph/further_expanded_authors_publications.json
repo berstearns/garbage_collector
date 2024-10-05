@@ -1,0 +1,93 @@
+{
+  "Martin Heidegger": {
+    "school_of_thought": "Phenomenology",
+    "publications": [
+      {
+        "title": "Being and Time",
+        "year": 1927,
+        "topics": [
+          "ontology",
+          "phenomenology",
+          "existentialism",
+          "time",
+          "being"
+        ]
+      }
+    ]
+  },
+  "Michel Foucault": {
+    "school_of_thought": "Post-structuralism",
+    "publications": [
+      {
+        "title": "Discipline and Punish",
+        "year": 1975,
+        "topics": [
+          "power",
+          "social institutions",
+          "prison",
+          "disciplinary mechanisms",
+          "surveillance"
+        ]
+      }
+    ]
+  },
+  "Simone de Beauvoir": {
+    "school_of_thought": "Existentialism",
+    "publications": [
+      {
+        "title": "The Second Sex",
+        "year": 1949,
+        "topics": [
+          "feminism",
+          "existence",
+          "gender",
+          "ethics",
+          "society"
+        ]
+      }
+    ]
+  },
+  "Jacques Derrida": {
+    "school_of_thought": "Deconstruction",
+    "publications": [
+      {
+        "title": "Of Grammatology",
+        "year": 1967,
+        "topics": [
+          "deconstruction",
+          "philosophy of language",
+          "metaphysics of presence",
+          "text",
+          "writing"
+        ]
+      }
+    ]
+  },
+  "Jean-Paul Sartre": {
+    "school_of_thought": "Existentialism",
+    "publications": [
+      {
+        "title": "Being and Nothingness",
+        "year": 1943,
+        "topics": [
+          "existentialism",
+          "phenomenology",
+          "ontology",
+          "freedom",
+          "consciousness"
+        ]
+      },
+      {
+        "title": "Nausea",
+        "year": 1938,
+        "topics": [
+          "existentialism",
+          "literature",
+          "absurd",
+          "freedom",
+          "identity"
+        ]
+      }
+    ]
+  }
+}

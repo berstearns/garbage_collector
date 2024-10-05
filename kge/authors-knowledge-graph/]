@@ -1,0 +1,46 @@
+import os
+import json
+from dataclasses import dataclass
+config = {
+        "annotated_authors_fp": "annotated_authors.json",
+        "list_of_authors_fp": "list_of_authors.txt"
+}
+
+@dataclass
+class Config:
+    def __init__(self, **kwargs):
+        for k, v in kwargs.items():
+            setattr(self, k, v) 
+
+config = Config(**config)
+
+with open(config.list_of_authors_fp) as inpf:
+    list_of_authors_names = [author_name.lower()
+                             for author_name in
+                             inpf.read().split("\n")]
+
+
+if not os.path.exists(config.annotated_authors_fp): 
+    with open(config.annotated_authors_fp,"w") as inpf:
+       inpf.write("{}") 
+
+with open(config.annotated_authors_fp) as inpf:
+    try:
+        AA_dict = json.load(inpf)
+    except:
+        AA_dict = {
+                "unannotated":{},
+                "annotated":{}
+                }
+
+for author_name in list_of_authors_names:
+    if AA_dict["annotated"].get(author_name,False) and\
+        AA_dict["unannotated"].get(author_name,False):
+            AA_dict["unannotated"][author_name] = {
+                    "name": author_name
+                    }
+
+with open(config.annotated_authors_fp,"w") as outf:
+    json_str = json.dumps(AA_dict,
+                          indent=4)
+    outf.write(json_str)

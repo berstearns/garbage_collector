@@ -1,0 +1,82 @@
+{
+  "Alfred Adler": {
+    "school_of_thought": "Individual Psychology",
+    "publications": [
+      {
+        "title": "Understanding Human Nature",
+        "year": 1927,
+        "topics": [
+          "individual psychology",
+          "personality",
+          "lifestyle",
+          "inferiority complex",
+          "holistic approach"
+        ]
+      }
+    ]
+  },
+  "Rollo May": {
+    "school_of_thought": "Existential Psychology",
+    "publications": [
+      {
+        "title": "The Courage to Create",
+        "year": 1975,
+        "topics": [
+          "existentialism",
+          "creativity",
+          "philosophy",
+          "anxiety",
+          "human condition"
+        ]
+      }
+    ]
+  },
+  "Viktor Frankl": {
+    "school_of_thought": "Logotherapy",
+    "publications": [
+      {
+        "title": "Man's Search for Meaning",
+        "year": 1946,
+        "topics": [
+          "logotherapy",
+          "existential crisis",
+          "survival",
+          "meaning of life",
+          "concentration camps"
+        ]
+      }
+    ]
+  },
+  "Stanley Milgram": {
+    "school_of_thought": "Social Psychology",
+    "publications": [
+      {
+        "title": "Obedience to Authority",
+        "year": 1974,
+        "topics": [
+          "obedience",
+          "authority",
+          "ethics",
+          "psychology experiments",
+          "social influence"
+        ]
+      }
+    ]
+  },
+  "Philip Zimbardo": {
+    "school_of_thought": "Social Psychology",
+    "publications": [
+      {
+        "title": "The Lucifer Effect",
+        "year": 2007,
+        "topics": [
+          "evil",
+          "social psychology",
+          "prison experiment",
+          "human behavior",
+          "moral psychology"
+        ]
+      }
+    ]
+  }
+}

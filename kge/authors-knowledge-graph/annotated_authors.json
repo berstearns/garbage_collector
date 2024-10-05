@@ -1,0 +1,955 @@
+{
+    "unannotated": {
+        "sigmund freud": {
+            "name": "sigmund freud"
+        },
+        "carl jung": {
+            "name": "carl jung"
+        },
+        "b.f. skinner": {
+            "name": "b.f. skinner"
+        },
+        "william james": {
+            "name": "william james"
+        },
+        "jean piaget": {
+            "name": "jean piaget"
+        },
+        "erik erikson": {
+            "name": "erik erikson"
+        },
+        "abraham maslow": {
+            "name": "abraham maslow"
+        },
+        "carl rogers": {
+            "name": "carl rogers"
+        },
+        "albert bandura": {
+            "name": "albert bandura"
+        },
+        "john bowlby": {
+            "name": "john bowlby"
+        },
+        "lev vygotsky": {
+            "name": "lev vygotsky"
+        },
+        "karen horney": {
+            "name": "karen horney"
+        },
+        "alfred adler": {
+            "name": "alfred adler"
+        },
+        "rollo may": {
+            "name": "rollo may"
+        },
+        "viktor frankl": {
+            "name": "viktor frankl"
+        },
+        "stanley milgram": {
+            "name": "stanley milgram"
+        },
+        "philip zimbardo": {
+            "name": "philip zimbardo"
+        },
+        "elizabeth loftus": {
+            "name": "elizabeth loftus"
+        },
+        "anna freud": {
+            "name": "anna freud"
+        },
+        "donald winnicott": {
+            "name": "donald winnicott"
+        },
+        "harry harlow": {
+            "name": "harry harlow"
+        },
+        "melanie klein": {
+            "name": "melanie klein"
+        },
+        "john watson": {
+            "name": "john watson"
+        },
+        "howard gardner": {
+            "name": "howard gardner"
+        },
+        "daniel kahneman": {
+            "name": "daniel kahneman"
+        },
+        "mihaly csikszentmihalyi": {
+            "name": "mihaly csikszentmihalyi"
+        },
+        "aaron beck": {
+            "name": "aaron beck"
+        },
+        "martin seligman": {
+            "name": "martin seligman"
+        },
+        "steven pinker": {
+            "name": "steven pinker"
+        },
+        "noam chomsky": {
+            "name": "noam chomsky"
+        },
+        "hans eysenck": {
+            "name": "hans eysenck"
+        },
+        "solomon asch": {
+            "name": "solomon asch"
+        },
+        "robert sternberg": {
+            "name": "robert sternberg"
+        },
+        "judith butler": {
+            "name": "judith butler"
+        },
+        "carol gilligan": {
+            "name": "carol gilligan"
+        },
+        "jerome bruner": {
+            "name": "jerome bruner"
+        },
+        "richard lazarus": {
+            "name": "richard lazarus"
+        },
+        "robert plutchik": {
+            "name": "robert plutchik"
+        },
+        "paul ekman": {
+            "name": "paul ekman"
+        },
+        "virginia satir": {
+            "name": "virginia satir"
+        },
+        "kurt lewin": {
+            "name": "kurt lewin"
+        },
+        "abraham kaplan": {
+            "name": "abraham kaplan"
+        },
+        "leon festinger": {
+            "name": "leon festinger"
+        },
+        "john dewey": {
+            "name": "john dewey"
+        },
+        "gordon allport": {
+            "name": "gordon allport"
+        },
+        "henry murray": {
+            "name": "henry murray"
+        },
+        "kenneth clark": {
+            "name": "kenneth clark"
+        },
+        "mamie phipps clark": {
+            "name": "mamie phipps clark"
+        },
+        "roger sperry": {
+            "name": "roger sperry"
+        },
+        "stanley schachter": {
+            "name": "stanley schachter"
+        },
+        "philosophy authors:": {
+            "name": "philosophy authors:"
+        },
+        "immanuel kant": {
+            "name": "immanuel kant"
+        },
+        "friedrich nietzsche": {
+            "name": "friedrich nietzsche"
+        },
+        "jean-paul sartre": {
+            "name": "jean-paul sartre"
+        },
+        "rene descartes": {
+            "name": "rene descartes"
+        },
+        "aristotle": {
+            "name": "aristotle"
+        },
+        "plato": {
+            "name": "plato"
+        },
+        "socrates": {
+            "name": "socrates"
+        },
+        "thomas aquinas": {
+            "name": "thomas aquinas"
+        },
+        "david hume": {
+            "name": "david hume"
+        },
+        "john locke": {
+            "name": "john locke"
+        },
+        "georg wilhelm friedrich hegel": {
+            "name": "georg wilhelm friedrich hegel"
+        },
+        "arthur schopenhauer": {
+            "name": "arthur schopenhauer"
+        },
+        "baruch spinoza": {
+            "name": "baruch spinoza"
+        },
+        "s\u00f8ren kierkegaard": {
+            "name": "s\u00f8ren kierkegaard"
+        },
+        "karl marx": {
+            "name": "karl marx"
+        },
+        "michel foucault": {
+            "name": "michel foucault"
+        },
+        "jacques derrida": {
+            "name": "jacques derrida"
+        },
+        "ludwig wittgenstein": {
+            "name": "ludwig wittgenstein"
+        },
+        "bertrand russell": {
+            "name": "bertrand russell"
+        },
+        "albert camus": {
+            "name": "albert camus"
+        },
+        "simone de beauvoir": {
+            "name": "simone de beauvoir"
+        },
+        "john stuart mill": {
+            "name": "john stuart mill"
+        },
+        "edmund husserl": {
+            "name": "edmund husserl"
+        },
+        "martin heidegger": {
+            "name": "martin heidegger"
+        },
+        "hannah arendt": {
+            "name": "hannah arendt"
+        },
+        "maurice merleau-ponty": {
+            "name": "maurice merleau-ponty"
+        },
+        "alfred north whitehead": {
+            "name": "alfred north whitehead"
+        },
+        "henri bergson": {
+            "name": "henri bergson"
+        },
+        "jean baudrillard": {
+            "name": "jean baudrillard"
+        },
+        "julia kristeva": {
+            "name": "julia kristeva"
+        },
+        "emmanuel levinas": {
+            "name": "emmanuel levinas"
+        },
+        "jacques lacan": {
+            "name": "jacques lacan"
+        },
+        "gilles deleuze": {
+            "name": "gilles deleuze"
+        },
+        "f\u00e9lix guattari": {
+            "name": "f\u00e9lix guattari"
+        },
+        "richard rorty": {
+            "name": "richard rorty"
+        },
+        "charles sanders peirce": {
+            "name": "charles sanders peirce"
+        },
+        "john rawls": {
+            "name": "john rawls"
+        },
+        "robert nozick": {
+            "name": "robert nozick"
+        },
+        "alasdair macintyre": {
+            "name": "alasdair macintyre"
+        },
+        "slavoj \u017ei\u017eek": {
+            "name": "slavoj \u017ei\u017eek"
+        },
+        "isaiah berlin": {
+            "name": "isaiah berlin"
+        },
+        "leo strauss": {
+            "name": "leo strauss"
+        },
+        "j\u00fcrgen habermas": {
+            "name": "j\u00fcrgen habermas"
+        },
+        "herbert marcuse": {
+            "name": "herbert marcuse"
+        },
+        "paul ricoeur": {
+            "name": "paul ricoeur"
+        },
+        "karl popper": {
+            "name": "karl popper"
+        },
+        "alfred j. ayer": {
+            "name": "alfred j. ayer"
+        },
+        "martha nussbaum": {
+            "name": "martha nussbaum"
+        }
+    },
+    "annotated": {
+        "sigmund freud": {
+            "school_of_thought": "Psychoanalysis",
+            "publications": [
+                {
+                    "title": "The Interpretation of Dreams",
+                    "year": 1899,
+                    "topics": [
+                        "dreams",
+                        "unconscious mind",
+                        "wish fulfillment",
+                        "psychoanalysis",
+                        "symbolism"
+                    ]
+                },
+                {
+                    "title": "Civilization and Its Discontents",
+                    "year": 1930,
+                    "topics": [
+                        "civilization",
+                        "human nature",
+                        "conflict",
+                        "instincts",
+                        "discontent"
+                    ]
+                },
+                {
+                    "title": "Three Essays on the Theory of Sexuality",
+                    "year": 1905,
+                    "topics": [
+                        "sexuality",
+                        "development",
+                        "psychoanalysis",
+                        "childhood",
+                        "libido"
+                    ]
+                }
+            ]
+        },
+        "carl jung": {
+            "school_of_thought": "Analytical Psychology",
+            "publications": [
+                {
+                    "title": "Psychological Types",
+                    "year": 1921,
+                    "topics": [
+                        "personality types",
+                        "introversion",
+                        "extraversion",
+                        "archetypes",
+                        "psyche"
+                    ]
+                },
+                {
+                    "title": "The Archetypes and the Collective Unconscious",
+                    "year": 1959,
+                    "topics": [
+                        "archetypes",
+                        "collective unconscious",
+                        "psyche",
+                        "symbols",
+                        "dreams"
+                    ]
+                },
+                {
+                    "title": "Man and His Symbols",
+                    "year": 1964,
+                    "topics": [
+                        "symbols",
+                        "psyche",
+                        "unconscious",
+                        "dreams",
+                        "consciousness"
+                    ]
+                }
+            ]
+        },
+        "immanuel kant": {
+            "school_of_thought": "German Idealism",
+            "publications": [
+                {
+                    "title": "Critique of Pure Reason",
+                    "year": 1781,
+                    "topics": [
+                        "epistemology",
+                        "metaphysics",
+                        "reason",
+                        "knowledge",
+                        "a priori"
+                    ]
+                },
+                {
+                    "title": "Critique of Practical Reason",
+                    "year": 1788,
+                    "topics": [
+                        "ethics",
+                        "morality",
+                        "practical reason",
+                        "imperative",
+                        "freedom"
+                    ]
+                },
+                {
+                    "title": "Critique of Judgment",
+                    "year": 1790,
+                    "topics": [
+                        "aesthetics",
+                        "teleology",
+                        "judgment",
+                        "beauty",
+                        "sublime"
+                    ]
+                }
+            ]
+        },
+        "friedrich nietzsche": {
+            "school_of_thought": "Existentialism",
+            "publications": [
+                {
+                    "title": "Thus Spoke Zarathustra",
+                    "year": 1883,
+                    "topics": [
+                        "nihilism",
+                        "will to power",
+                        "eternal recurrence",
+                        "superman",
+                        "individualism"
+                    ]
+                },
+                {
+                    "title": "Beyond Good and Evil",
+                    "year": 1886,
+                    "topics": [
+                        "morality",
+                        "philosophy",
+                        "truth",
+                        "values",
+                        "power"
+                    ]
+                },
+                {
+                    "title": "The Birth of Tragedy",
+                    "year": 1872,
+                    "topics": [
+                        "art",
+                        "tragedy",
+                        "Dionysian",
+                        "Apollonian",
+                        "culture"
+                    ]
+                }
+            ]
+        },
+        "jean-paul sartre": {
+            "school_of_thought": "Existentialism",
+            "publications": [
+                {
+                    "title": "Being and Nothingness",
+                    "year": 1943,
+                    "topics": [
+                        "existence",
+                        "consciousness",
+                        "freedom",
+                        "being",
+                        "nothingness"
+                    ]
+                },
+                {
+                    "title": "Nausea",
+                    "year": 1938,
+                    "topics": [
+                        "existence",
+                        "absurdity",
+                        "freedom",
+                        "alienation",
+                        "meaning"
+                    ]
+                },
+                {
+                    "title": "Existentialism is a Humanism",
+                    "year": 1946,
+                    "topics": [
+                        "existentialism",
+                        "humanism",
+                        "freedom",
+                        "responsibility",
+                        "meaning"
+                    ]
+                }
+            ]
+        },
+        "b.f. skinner": {
+            "school_of_thought": "Behaviorism",
+            "publications": [
+                {
+                    "title": "Walden Two",
+                    "year": 1948,
+                    "topics": [
+                        "utopia",
+                        "behaviorism",
+                        "society",
+                        "conditioning",
+                        "community"
+                    ]
+                },
+                {
+                    "title": "Beyond Freedom and Dignity",
+                    "year": 1971,
+                    "topics": [
+                        "behaviorism",
+                        "control",
+                        "freedom",
+                        "dignity",
+                        "society"
+                    ]
+                },
+                {
+                    "title": "The Behavior of Organisms",
+                    "year": 1938,
+                    "topics": [
+                        "behaviorism",
+                        "conditioning",
+                        "experiments",
+                        "learning",
+                        "reinforcement"
+                    ]
+                }
+            ]
+        },
+        "william james": {
+            "school_of_thought": "Pragmatism",
+            "publications": [
+                {
+                    "title": "The Principles of Psychology",
+                    "year": 1890,
+                    "topics": [
+                        "psychology",
+                        "consciousness",
+                        "habit",
+                        "emotion",
+                        "self"
+                    ]
+                },
+                {
+                    "title": "Pragmatism",
+                    "year": 1907,
+                    "topics": [
+                        "pragmatism",
+                        "truth",
+                        "belief",
+                        "ideas",
+                        "practice"
+                    ]
+                },
+                {
+                    "title": "The Varieties of Religious Experience",
+                    "year": 1902,
+                    "topics": [
+                        "religion",
+                        "experience",
+                        "psychology",
+                        "mysticism",
+                        "belief"
+                    ]
+                }
+            ]
+        },
+        "john stuart mill": {
+            "school_of_thought": "Utilitarianism",
+            "publications": [
+                {
+                    "title": "Utilitarianism",
+                    "year": 1863,
+                    "topics": [
+                        "utilitarianism",
+                        "ethics",
+                        "happiness",
+                        "consequences",
+                        "pleasure"
+                    ]
+                },
+                {
+                    "title": "On Liberty",
+                    "year": 1859,
+                    "topics": [
+                        "liberty",
+                        "freedom",
+                        "individualism",
+                        "society",
+                        "rights"
+                    ]
+                },
+                {
+                    "title": "The Subjection of Women",
+                    "year": 1869,
+                    "topics": [
+                        "feminism",
+                        "equality",
+                        "rights",
+                        "society",
+                        "liberty"
+                    ]
+                }
+            ]
+        },
+        "rene descartes": {
+            "school_of_thought": "Rationalism",
+            "publications": [
+                {
+                    "title": "Meditations on First Philosophy",
+                    "year": 1641,
+                    "topics": [
+                        "doubt",
+                        "existence",
+                        "mind",
+                        "God",
+                        "reality"
+                    ]
+                },
+                {
+                    "title": "Discourse on the Method",
+                    "year": 1637,
+                    "topics": [
+                        "method",
+                        "reason",
+                        "science",
+                        "knowledge",
+                        "doubt"
+                    ]
+                },
+                {
+                    "title": "Principles of Philosophy",
+                    "year": 1644,
+                    "topics": [
+                        "philosophy",
+                        "science",
+                        "nature",
+                        "God",
+                        "mind"
+                    ]
+                }
+            ]
+        },
+        "carl rogers": {
+            "school_of_thought": "Humanistic Psychology",
+            "publications": [
+                {
+                    "title": "On Becoming a Person",
+                    "year": 1961,
+                    "topics": [
+                        "self",
+                        "growth",
+                        "therapy",
+                        "authenticity",
+                        "experience"
+                    ]
+                },
+                {
+                    "title": "A Way of Being",
+                    "year": 1980,
+                    "topics": [
+                        "being",
+                        "experience",
+                        "growth",
+                        "therapy",
+                        "relationships"
+                    ]
+                },
+                {
+                    "title": "Client-Centered Therapy",
+                    "year": 1951,
+                    "topics": [
+                        "therapy",
+                        "client-centered",
+                        "relationships",
+                        "growth",
+                        "self"
+                    ]
+                }
+            ]
+        },
+        "jean piaget": {
+            "school_of_thought": "Developmental Psychology",
+            "publications": [
+                {
+                    "title": "The Psychology of the Child",
+                    "year": 1965,
+                    "topics": [
+                        "cognitive development",
+                        "child psychology",
+                        "educational theory",
+                        "development stages",
+                        "learning processes"
+                    ]
+                }
+            ]
+        },
+        "erik erikson": {
+            "school_of_thought": "Psychoanalytic",
+            "publications": [
+                {
+                    "title": "Childhood and Society",
+                    "year": 1950,
+                    "topics": [
+                        "developmental psychology",
+                        "identity crisis",
+                        "life stages",
+                        "psychoanalysis",
+                        "social psychology"
+                    ]
+                }
+            ]
+        },
+        "abraham maslow": {
+            "school_of_thought": "Humanistic Psychology",
+            "publications": [
+                {
+                    "title": "Motivation and Personality",
+                    "year": 1954,
+                    "topics": [
+                        "hierarchy of needs",
+                        "self-actualization",
+                        "human motivation",
+                        "psychology",
+                        "personality theory"
+                    ]
+                }
+            ]
+        },
+        "albert bandura": {
+            "school_of_thought": "Cognitive Psychology",
+            "publications": [
+                {
+                    "title": "Social Learning Theory",
+                    "year": 1971,
+                    "topics": [
+                        "behavioral psychology",
+                        "social cognition",
+                        "modeling",
+                        "observational learning",
+                        "self-efficacy"
+                    ]
+                }
+            ]
+        },
+        "john bowlby": {
+            "school_of_thought": "Attachment Theory",
+            "publications": [
+                {
+                    "title": "Attachment and Loss",
+                    "year": 1969,
+                    "topics": [
+                        "attachment",
+                        "child development",
+                        "emotional bonds",
+                        "loss",
+                        "parenting"
+                    ]
+                }
+            ]
+        },
+        "lev vygotsky": {
+            "school_of_thought": "Cultural-Historical Psychology",
+            "publications": [
+                {
+                    "title": "Mind in Society",
+                    "year": 1978,
+                    "topics": [
+                        "sociocultural theory",
+                        "cognitive development",
+                        "educational psychology",
+                        "zone of proximal development",
+                        "cultural mediation"
+                    ]
+                }
+            ]
+        },
+        "karen horney": {
+            "school_of_thought": "Psychoanalytic Feminism",
+            "publications": [
+                {
+                    "title": "Our Inner Conflicts",
+                    "year": 1945,
+                    "topics": [
+                        "neurosis",
+                        "feminist psychology",
+                        "self-help",
+                        "psychoanalysis",
+                        "personal growth"
+                    ]
+                }
+            ]
+        },
+        "alfred adler": {
+            "school_of_thought": "Individual Psychology",
+            "publications": [
+                {
+                    "title": "Understanding Human Nature",
+                    "year": 1927,
+                    "topics": [
+                        "individual psychology",
+                        "personality",
+                        "lifestyle",
+                        "inferiority complex",
+                        "holistic approach"
+                    ]
+                }
+            ]
+        },
+        "rollo may": {
+            "school_of_thought": "Existential Psychology",
+            "publications": [
+                {
+                    "title": "The Courage to Create",
+                    "year": 1975,
+                    "topics": [
+                        "existentialism",
+                        "creativity",
+                        "philosophy",
+                        "anxiety",
+                        "human condition"
+                    ]
+                }
+            ]
+        },
+        "viktor frankl": {
+            "school_of_thought": "Logotherapy",
+            "publications": [
+                {
+                    "title": "Man's Search for Meaning",
+                    "year": 1946,
+                    "topics": [
+                        "logotherapy",
+                        "existential crisis",
+                        "survival",
+                        "meaning of life",
+                        "concentration camps"
+                    ]
+                }
+            ]
+        },
+        "stanley milgram": {
+            "school_of_thought": "Social Psychology",
+            "publications": [
+                {
+                    "title": "Obedience to Authority",
+                    "year": 1974,
+                    "topics": [
+                        "obedience",
+                        "authority",
+                        "ethics",
+                        "psychology experiments",
+                        "social influence"
+                    ]
+                }
+            ]
+        },
+        "philip zimbardo": {
+            "school_of_thought": "Social Psychology",
+            "publications": [
+                {
+                    "title": "The Lucifer Effect",
+                    "year": 2007,
+                    "topics": [
+                        "evil",
+                        "social psychology",
+                        "prison experiment",
+                        "human behavior",
+                        "moral psychology"
+                    ]
+                }
+            ]
+        },
+        "Alfred Adler": {
+            "school_of_thought": "Individual Psychology",
+            "publications": [
+                {
+                    "title": "Understanding Human Nature",
+                    "year": 1927,
+                    "topics": [
+                        "individual psychology",
+                        "personality",
+                        "lifestyle",
+                        "inferiority complex",
+                        "holistic approach"
+                    ]
+                }
+            ]
+        },
+        "Rollo May": {
+            "school_of_thought": "Existential Psychology",
+            "publications": [
+                {
+                    "title": "The Courage to Create",
+                    "year": 1975,
+                    "topics": [
+                        "existentialism",
+                        "creativity",
+                        "philosophy",
+                        "anxiety",
+                        "human condition"
+                    ]
+                }
+            ]
+        },
+        "Viktor Frankl": {
+            "school_of_thought": "Logotherapy",
+            "publications": [
+                {
+                    "title": "Man's Search for Meaning",
+                    "year": 1946,
+                    "topics": [
+                        "logotherapy",
+                        "existential crisis",
+                        "survival",
+                        "meaning of life",
+                        "concentration camps"
+                    ]
+                }
+            ]
+        },
+        "Stanley Milgram": {
+            "school_of_thought": "Social Psychology",
+            "publications": [
+                {
+                    "title": "Obedience to Authority",
+                    "year": 1974,
+                    "topics": [
+                        "obedience",
+                        "authority",
+                        "ethics",
+                        "psychology experiments",
+                        "social influence"
+                    ]
+                }
+            ]
+        },
+        "Philip Zimbardo": {
+            "school_of_thought": "Social Psychology",
+            "publications": [
+                {
+                    "title": "The Lucifer Effect",
+                    "year": 2007,
+                    "topics": [
+                        "evil",
+                        "social psychology",
+                        "prison experiment",
+                        "human behavior",
+                        "moral psychology"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,202 @@
+{
+  "Sigmund Freud": {
+    "school_of_thought": "Psychoanalysis",
+    "publications": [
+      {
+        "title": "The Interpretation of Dreams",
+        "year": 1899,
+        "topics": ["dreams", "unconscious mind", "wish fulfillment", "psychoanalysis", "symbolism"]
+      },
+      {
+        "title": "Civilization and Its Discontents",
+        "year": 1930,
+        "topics": ["civilization", "human nature", "conflict", "instincts", "discontent"]
+      },
+      {
+        "title": "Three Essays on the Theory of Sexuality",
+        "year": 1905,
+        "topics": ["sexuality", "development", "psychoanalysis", "childhood", "libido"]
+      }
+    ]
+  },
+  "Carl Jung": {
+    "school_of_thought": "Analytical Psychology",
+    "publications": [
+      {
+        "title": "Psychological Types",
+        "year": 1921,
+        "topics": ["personality types", "introversion", "extraversion", "archetypes", "psyche"]
+      },
+      {
+        "title": "The Archetypes and the Collective Unconscious",
+        "year": 1959,
+        "topics": ["archetypes", "collective unconscious", "psyche", "symbols", "dreams"]
+      },
+      {
+        "title": "Man and His Symbols",
+        "year": 1964,
+        "topics": ["symbols", "psyche", "unconscious", "dreams", "consciousness"]
+      }
+    ]
+  },
+  "Immanuel Kant": {
+    "school_of_thought": "German Idealism",
+    "publications": [
+      {
+        "title": "Critique of Pure Reason",
+        "year": 1781,
+        "topics": ["epistemology", "metaphysics", "reason", "knowledge", "a priori"]
+      },
+      {
+        "title": "Critique of Practical Reason",
+        "year": 1788,
+        "topics": ["ethics", "morality", "practical reason", "imperative", "freedom"]
+      },
+      {
+        "title": "Critique of Judgment",
+        "year": 1790,
+        "topics": ["aesthetics", "teleology", "judgment", "beauty", "sublime"]
+      }
+    ]
+  },
+  "Friedrich Nietzsche": {
+    "school_of_thought": "Existentialism",
+    "publications": [
+      {
+        "title": "Thus Spoke Zarathustra",
+        "year": 1883,
+        "topics": ["nihilism", "will to power", "eternal recurrence", "superman", "individualism"]
+      },
+      {
+        "title": "Beyond Good and Evil",
+        "year": 1886,
+        "topics": ["morality", "philosophy", "truth", "values", "power"]
+      },
+      {
+        "title": "The Birth of Tragedy",
+        "year": 1872,
+        "topics": ["art", "tragedy", "Dionysian", "Apollonian", "culture"]
+      }
+    ]
+  },
+  "Jean-Paul Sartre": {
+    "school_of_thought": "Existentialism",
+    "publications": [
+      {
+        "title": "Being and Nothingness",
+        "year": 1943,
+        "topics": ["existence", "consciousness", "freedom", "being", "nothingness"]
+      },
+      {
+        "title": "Nausea",
+        "year": 1938,
+        "topics": ["existence", "absurdity", "freedom", "alienation", "meaning"]
+      },
+      {
+        "title": "Existentialism is a Humanism",
+        "year": 1946,
+        "topics": ["existentialism", "humanism", "freedom", "responsibility", "meaning"]
+      }
+    ]
+  },
+  "B.F. Skinner": {
+    "school_of_thought": "Behaviorism",
+    "publications": [
+      {
+        "title": "Walden Two",
+        "year": 1948,
+        "topics": ["utopia", "behaviorism", "society", "conditioning", "community"]
+      },
+      {
+        "title": "Beyond Freedom and Dignity",
+        "year": 1971,
+        "topics": ["behaviorism", "control", "freedom", "dignity", "society"]
+      },
+      {
+        "title": "The Behavior of Organisms",
+        "year": 1938,
+        "topics": ["behaviorism", "conditioning", "experiments", "learning", "reinforcement"]
+      }
+    ]
+  },
+  "William James": {
+    "school_of_thought": "Pragmatism",
+    "publications": [
+      {
+        "title": "The Principles of Psychology",
+        "year": 1890,
+        "topics": ["psychology", "consciousness", "habit", "emotion", "self"]
+      },
+      {
+        "title": "Pragmatism",
+        "year": 1907,
+        "topics": ["pragmatism", "truth", "belief", "ideas", "practice"]
+      },
+      {
+        "title": "The Varieties of Religious Experience",
+        "year": 1902,
+        "topics": ["religion", "experience", "psychology", "mysticism", "belief"]
+      }
+    ]
+  },
+  "John Stuart Mill": {
+    "school_of_thought": "Utilitarianism",
+    "publications": [
+      {
+        "title": "Utilitarianism",
+        "year": 1863,
+        "topics": ["utilitarianism", "ethics", "happiness", "consequences", "pleasure"]
+      },
+      {
+        "title": "On Liberty",
+        "year": 1859,
+        "topics": ["liberty", "freedom", "individualism", "society", "rights"]
+      },
+      {
+        "title": "The Subjection of Women",
+        "year": 1869,
+        "topics": ["feminism", "equality", "rights", "society", "liberty"]
+      }
+    ]
+  },
+  "Rene Descartes": {
+    "school_of_thought": "Rationalism",
+    "publications": [
+      {
+        "title": "Meditations on First Philosophy",
+        "year": 1641,
+        "topics": ["doubt", "existence", "mind", "God", "reality"]
+      },
+      {
+        "title": "Discourse on the Method",
+        "year": 1637,
+        "topics": ["method", "reason", "science", "knowledge", "doubt"]
+      },
+      {
+        "title": "Principles of Philosophy",
+        "year": 1644,
+        "topics": ["philosophy", "science", "nature", "God", "mind"]
+      }
+    ]
+  },
+  "Carl Rogers": {
+    "school_of_thought": "Humanistic Psychology",
+    "publications": [
+      {
+        "title": "On Becoming a Person",
+        "year": 1961,
+        "topics": ["self", "growth", "therapy", "authenticity", "experience"]
+      },
+      {
+        "title": "A Way of Being",
+        "year": 1980,
+        "topics": ["being", "experience", "growth", "therapy", "relationships"]
+      },
+      {
+        "title": "Client-Centered Therapy",
+        "year": 1951,
+        "topics": ["therapy", "client-centered", "relationships", "growth", "self"]
+      }
+    ]
+  }
+}

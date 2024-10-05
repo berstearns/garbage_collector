@@ -1,0 +1,114 @@
+{
+  "Jean Piaget": {
+    "school_of_thought": "Developmental Psychology",
+    "publications": [
+      {
+        "title": "The Psychology of the Child",
+        "year": 1965,
+        "topics": [
+          "cognitive development",
+          "child psychology",
+          "educational theory",
+          "development stages",
+          "learning processes"
+        ]
+      }
+    ]
+  },
+  "Erik Erikson": {
+    "school_of_thought": "Psychoanalytic",
+    "publications": [
+      {
+        "title": "Childhood and Society",
+        "year": 1950,
+        "topics": [
+          "developmental psychology",
+          "identity crisis",
+          "life stages",
+          "psychoanalysis",
+          "social psychology"
+        ]
+      }
+    ]
+  },
+  "Abraham Maslow": {
+    "school_of_thought": "Humanistic Psychology",
+    "publications": [
+      {
+        "title": "Motivation and Personality",
+        "year": 1954,
+        "topics": [
+          "hierarchy of needs",
+          "self-actualization",
+          "human motivation",
+          "psychology",
+          "personality theory"
+        ]
+      }
+    ]
+  },
+  "Albert Bandura": {
+    "school_of_thought": "Cognitive Psychology",
+    "publications": [
+      {
+        "title": "Social Learning Theory",
+        "year": 1971,
+        "topics": [
+          "behavioral psychology",
+          "social cognition",
+          "modeling",
+          "observational learning",
+          "self-efficacy"
+        ]
+      }
+    ]
+  },
+  "John Bowlby": {
+    "school_of_thought": "Attachment Theory",
+    "publications": [
+      {
+        "title": "Attachment and Loss",
+        "year": 1969,
+        "topics": [
+          "attachment",
+          "child development",
+          "emotional bonds",
+          "loss",
+          "parenting"
+        ]
+      }
+    ]
+  },
+  "Lev Vygotsky": {
+    "school_of_thought": "Cultural-Historical Psychology",
+    "publications": [
+      {
+        "title": "Mind in Society",
+        "year": 1978,
+        "topics": [
+          "sociocultural theory",
+          "cognitive development",
+          "educational psychology",
+          "zone of proximal development",
+          "cultural mediation"
+        ]
+      }
+    ]
+  },
+  "Karen Horney": {
+    "school_of_thought": "Psychoanalytic Feminism",
+    "publications": [
+      {
+        "title": "Our Inner Conflicts",
+        "year": 1945,
+        "topics": [
+          "neurosis",
+          "feminist psychology",
+          "self-help",
+          "psychoanalysis",
+          "personal growth"
+        ]
+      }
+    ]
+  }
+}
