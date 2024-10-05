@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz with ELO Rating</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .answer {
+            display: block;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <div id="quiz-container">
+        <div id="question-container" class="question"></div>
+        <div id="answers-container"></div>
+        <button id="next-button" onclick="nextQuestion()">Next</button>
+    </div>
+    <div id="result-container" style="display: none;">
+        <h2>Your ELO Rating: <span id="learner-elo"></span></h2>
+    </div>
+
+    <script>
+        // Sample questions with their ELO ratings
+        const questions = [
+            {
+                text: "What is the capital of France?",
+                options: ["Berlin", "Madrid", "Paris", "Rome"],
+                correctIndex: 2,
+                elo: 1200
+            },
+            {
+                text: "What is 2 + 2?",
+                options: ["3", "4", "5", "6"],
+                correctIndex: 1,
+                elo: 1000
+            },
+            {
+                text: "What is the boiling point of water?",
+                options: ["90°C", "100°C", "110°C", "120°C"],
+                correctIndex: 1,
+                elo: 1100
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let learnerElo = 1000; // Starting ELO for the learner
+
+        function showQuestion() {
+            const question = questions[currentQuestionIndex];
+            document.getElementById("question-container").innerText = question.text;
+
+            const answersContainer = document.getElementById("answers-container");
+            answersContainer.innerHTML = '';
+            question.options.forEach((option, index) => {
+                const answerElement = document.createElement("input");
+                answerElement.type = "radio";
+                answerElement.name = "answer";
+                answerElement.value = index;
+                answerElement.id = `option-${index}`;
+                answerElement.classList.add("answer");
+
+                const labelElement = document.createElement("label");
+                labelElement.htmlFor = `option-${index}`;
+                labelElement.innerText = option;
+
+                answersContainer.appendChild(answerElement);
+                answersContainer.appendChild(labelElement);
+                answersContainer.appendChild(document.createElement("br"));
+            });
+        }
+
+        function calculateElo(playerElo, opponentElo, score) {
+            const k = 32;
+            const expectedScore = 1 / (1 + Math.pow(10, (opponentElo - playerElo) / 400));
+            return Math.round(playerElo + k * (score - expectedScore));
+        }
+
+        function nextQuestion() {
+            const selectedAnswer = document.querySelector('input[name="answer"]:checked');
+            if (!selectedAnswer) {
+                alert("Please select an answer!");
+                return;
+            }
+
+            const question = questions[currentQuestionIndex];
+            const correct = parseInt(selectedAnswer.value) === question.correctIndex;
+
+            // Update ELO ratings
+            learnerElo = calculateElo(learnerElo, question.elo, correct ? 1 : 0);
+            question.elo = calculateElo(question.elo, learnerElo, correct ? 0 : 1);
+
+            currentQuestionIndex++;
+            if (currentQuestionIndex < questions.length) {
+                showQuestion();
+            } else {
+                document.getElementById("quiz-container").style.display = "none";
+                document.getElementById("result-container").style.display = "block";
+                document.getElementById("learner-elo").innerText = learnerElo;
+            }
+        }
+
+        // Initialize the first question
+        showQuestion();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,240 @@
+time_namelookup:  0.000023s
+time_connect:  0.267003s
+time_appconnect:  0.000000s
+time_pretransfer:  0.267104s
+time_redirect:  0.000000s
+time_starttransfer:  0.863586s
+	     ----------
+  time_total:  0.863759s
+time_namelookup:  0.000018s
+time_connect:  0.266736s
+time_appconnect:  0.000000s
+time_pretransfer:  0.266821s
+time_redirect:  0.000000s
+time_starttransfer:  0.863514s
+	     ----------
+  time_total:  0.863646s
+time_namelookup:  0.000015s
+time_connect:  0.265636s
+time_appconnect:  0.000000s
+time_pretransfer:  0.265749s
+time_redirect:  0.000000s
+time_starttransfer:  0.862658s
+	     ----------
+  time_total:  0.862771s
+time_namelookup:  0.000017s
+time_connect:  0.266692s
+time_appconnect:  0.000000s
+time_pretransfer:  0.266807s
+time_redirect:  0.000000s
+time_starttransfer:  1.015682s
+	     ----------
+  time_total:  1.015744s
+time_namelookup:  0.000018s
+time_connect:  0.265621s
+time_appconnect:  0.000000s
+time_pretransfer:  0.265732s
+time_redirect:  0.000000s
+time_starttransfer:  1.014624s
+	     ----------
+  time_total:  1.014655s
+time_namelookup:  0.000009s
+time_connect:  0.264820s
+time_appconnect:  0.000000s
+time_pretransfer:  0.264935s
+time_redirect:  0.000000s
+time_starttransfer:  1.013788s
+	     ----------
+  time_total:  1.013829s
+time_namelookup:  0.000008s
+time_connect:  0.264319s
+time_appconnect:  0.000000s
+time_pretransfer:  0.264394s
+time_redirect:  0.000000s
+time_starttransfer:  1.013189s
+	     ----------
+  time_total:  1.013235s
+time_namelookup:  0.000008s
+time_connect:  0.265097s
+time_appconnect:  0.000000s
+time_pretransfer:  0.265197s
+time_redirect:  0.000000s
+time_starttransfer:  1.014197s
+	     ----------
+  time_total:  1.014245s
+time_namelookup:  0.000010s
+time_connect:  0.264598s
+time_appconnect:  0.000000s
+time_pretransfer:  0.264697s
+time_redirect:  0.000000s
+time_starttransfer:  1.013595s
+	     ----------
+  time_total:  1.013633s
+time_namelookup:  0.000029s
+time_connect:  0.264282s
+time_appconnect:  0.000000s
+time_pretransfer:  0.264389s
+time_redirect:  0.000000s
+time_starttransfer:  1.013232s
+	     ----------
+  time_total:  1.013271s
+time_namelookup:  0.000029s
+time_connect:  0.202223s
+time_appconnect:  0.000000s
+time_pretransfer:  0.202294s
+time_redirect:  0.000000s
+time_starttransfer:  0.740528s
+	     ----------
+  time_total:  0.740648s
+time_namelookup:  0.000016s
+time_connect:  0.201978s
+time_appconnect:  0.000000s
+time_pretransfer:  0.202025s
+time_redirect:  0.000000s
+time_starttransfer:  0.847126s
+	     ----------
+  time_total:  0.847289s
+time_namelookup:  0.000018s
+time_connect:  0.201083s
+time_appconnect:  0.000000s
+time_pretransfer:  0.201111s
+time_redirect:  0.000000s
+time_starttransfer:  0.852750s
+	     ----------
+  time_total:  0.852897s
+time_namelookup:  0.000017s
+time_connect:  0.199855s
+time_appconnect:  0.000000s
+time_pretransfer:  0.199882s
+time_redirect:  0.000000s
+time_starttransfer:  0.881004s
+	     ----------
+  time_total:  0.881170s
+time_namelookup:  0.000017s
+time_connect:  0.201604s
+time_appconnect:  0.000000s
+time_pretransfer:  0.201635s
+time_redirect:  0.000000s
+time_starttransfer:  0.882920s
+	     ----------
+  time_total:  0.883067s
+time_namelookup:  0.000018s
+time_connect:  0.200809s
+time_appconnect:  0.000000s
+time_pretransfer:  0.200839s
+time_redirect:  0.000000s
+time_starttransfer:  0.888659s
+	     ----------
+  time_total:  0.888766s
+time_namelookup:  0.000018s
+time_connect:  0.199807s
+time_appconnect:  0.000000s
+time_pretransfer:  0.199832s
+time_redirect:  0.000000s
+time_starttransfer:  0.887945s
+	     ----------
+  time_total:  0.888048s
+time_namelookup:  0.000020s
+time_connect:  0.199229s
+time_appconnect:  0.000000s
+time_pretransfer:  0.199257s
+time_redirect:  0.000000s
+time_starttransfer:  0.887124s
+	     ----------
+  time_total:  0.887260s
+time_namelookup:  0.000013s
+time_connect:  0.198114s
+time_appconnect:  0.000000s
+time_pretransfer:  0.198142s
+time_redirect:  0.000000s
+time_starttransfer:  0.891197s
+	     ----------
+  time_total:  0.891344s
+time_namelookup:  0.000017s
+time_connect:  0.198604s
+time_appconnect:  0.000000s
+time_pretransfer:  0.198626s
+time_redirect:  0.000000s
+time_starttransfer:  0.891817s
+	     ----------
+  time_total:  0.891944s
+time_namelookup:  0.000024s
+time_connect:  0.332898s
+time_appconnect:  0.000000s
+time_pretransfer:  0.332991s
+time_redirect:  0.000000s
+time_starttransfer:  1.099555s
+	     ----------
+  time_total:  1.099677s
+time_namelookup:  0.000018s
+time_connect:  0.197937s
+time_appconnect:  0.000000s
+time_pretransfer:  0.197959s
+time_redirect:  0.000000s
+time_starttransfer:  1.104521s
+	     ----------
+  time_total:  1.104695s
+time_namelookup:  0.000016s
+time_connect:  0.237433s
+time_appconnect:  0.000000s
+time_pretransfer:  0.237525s
+time_redirect:  0.000000s
+time_starttransfer:  1.331641s
+	     ----------
+  time_total:  1.331769s
+time_namelookup:  0.000029s
+time_connect:  0.196278s
+time_appconnect:  0.000000s
+time_pretransfer:  0.196304s
+time_redirect:  0.000000s
+time_starttransfer:  1.344343s
+	     ----------
+  time_total:  1.344386s
+time_namelookup:  0.000009s
+time_connect:  0.196817s
+time_appconnect:  0.000000s
+time_pretransfer:  0.196835s
+time_redirect:  0.000000s
+time_starttransfer:  1.411881s
+	     ----------
+  time_total:  1.412041s
+time_namelookup:  0.000016s
+time_connect:  0.237707s
+time_appconnect:  0.000000s
+time_pretransfer:  0.237805s
+time_redirect:  0.000000s
+time_starttransfer:  1.410644s
+	     ----------
+  time_total:  1.410808s
+time_namelookup:  0.000009s
+time_connect:  0.196445s
+time_appconnect:  0.000000s
+time_pretransfer:  0.196464s
+time_redirect:  0.000000s
+time_starttransfer:  1.412075s
+	     ----------
+  time_total:  1.412214s
+time_namelookup:  0.000008s
+time_connect:  0.334127s
+time_appconnect:  0.000000s
+time_pretransfer:  0.334232s
+time_redirect:  0.000000s
+time_starttransfer:  1.421205s
+	     ----------
+  time_total:  1.421313s
+time_namelookup:  0.000015s
+time_connect:  0.197209s
+time_appconnect:  0.000000s
+time_pretransfer:  0.197237s
+time_redirect:  0.000000s
+time_starttransfer:  1.424106s
+	     ----------
+  time_total:  1.424221s
+time_namelookup:  0.000015s
+time_connect:  0.333331s
+time_appconnect:  0.000000s
+time_pretransfer:  0.333417s
+time_redirect:  0.000000s
+time_starttransfer:  1.926754s
+	     ----------
+  time_total:  1.926910s
