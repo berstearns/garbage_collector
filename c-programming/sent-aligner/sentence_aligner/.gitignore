@@ -1,0 +1,6 @@
+# Ignore binary files
+bin/
+
+# Ignore build script outputs
+*.o
+*.out

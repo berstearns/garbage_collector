@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #2f3136;
+    color: #ffffff;
+}
+
+.server {
+    border: 1px solid #40444b;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #36393f;
+}
+
+.category {
+    margin: 10px 0;
+    border: 1px dashed #555;
+    padding: 10px;
+}
+
+.channel {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.channel:hover {
+    color: #7289da;
+}
+
+.messages {
+    margin-top: 20px;
+    border-top: 1px solid #40444b;
+    padding-top: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.input-area {
+    margin-top: 20px;
+}
