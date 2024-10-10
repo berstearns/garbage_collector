@@ -1,0 +1,136 @@
+---
+title: "CLAP ICLE CJ model report"
+author: "Peter Thwaites"
+format: html
+self-contained: true
+editor: visual
+code-fold: false
+---
+
+This report describes the process of creating a model for the CLAP_ICLE CJ task. The data used in the report has been pseudonymised.
+
+##### Packages
+
+This script uses a range of functions for data tidying, linear model processing, and data visualisation. It also uses *sirt* for CJ data processing and additional sirt functions written by Ian Jones for No More Marking, available at https://github.com/NoMoreMarking/sirt.
+
+```{r}
+#| label: load_packages
+#| message: false
+#| code-fold: false
+#| warning: false
+library(tidyverse); library(sirt); library(here)
+here::i_am("ICLE_1300.Rproj")
+source(here("r", "sirt_functions.r"))
+```
+
+##### Load data
+
+```{r}
+#| label: load_data
+#| message: false
+decisions <- read_csv(here("data", "decisions.csv")) |> 
+  rename(won = chosen, lost = notChosen)
+judges <- read_csv(here("data", "judges.csv"))
+```
+
+One thing to note here is that there was an quirk with the NMM data: several judges were showing, on the NMM backend and in the judge data downloaded from NMM, as having met their quota of 200 comparisons; but in the decision data they have fewer than 200 comparisons. Here's a table showing the number of comparisons actually conducted:
+
+```{r}
+#| label: n_comparisons
+actual_comparisons <- decisions |> 
+  group_by(judge_id) |> 
+  summarise(n = n())
+judges <- judges |> 
+  left_join(actual_comparisons, by = join_by(judge_id)) |> 
+  rename(expected_comps = local_comparisons) |> 
+  relocate(actual_comps = n, .before = expected_comps)
+comparison_counts <-  judges |> 
+  group_by(actual_comps) |> 
+  summarise(n = n())
+comparison_counts
+```
+
+##### Initial model
+
+The small number of missing comparisons is not a big issue because we still have almost 13000 comparisons.
+
+```{r}
+#| label: build_model
+#| results: hide
+#| warning: false
+mod <- btm_with_judges(decisions)
+mod_SSR <- mod$mle.rel
+```
+
+##### Judge fit
+
+```{r}
+#| label: join_judges
+nmm_judges <- judge_misfit(mod$fit_judges) |> 
+  mutate(judge = as.numeric(judge)) |> 
+  arrange(desc(infit))
+judges <- judges |> 
+  dplyr::select(!infit) |> 
+  left_join(nmm_judges, by = join_by(judge_id == judge))|> 
+  dplyr::select(!c(outfit, agree)) |> 
+  relocate(c(infit, threshold, misfit), .before = L1) |> 
+  arrange(desc(infit))
+head(judges[,c(1, 2, 4, 5, 6, 8)])
+```
+
+We have three misfitting judges. In previous studies, we've used a protocol for removing judges using three "red flags". These are defined, in this study, as follows:
+
+-   Misfit: judge infit is more than 2 standard deviations above the mean.
+
+-   Left-click percentage: value is lower than the 1st quantile value minus 1.5\* the IQR, or higher than the third quantile plus 1.5\* the IQR.
+
+-   Median response time: value is faster than the mean of all median response times minus 1 standard deviation (in practice, a value of 40.8 seconds). This definition was adopted because the use of a formal definition of outliers resulted in a floor effect.
+
+```{r}
+#| label: outlier_thresholds
+detect_outlier <- function(x) {
+   Q1 <- quantile(x, probs=.25)
+   Q3 <- quantile(x, probs=.75)
+   IQR = Q3-Q1
+   x > Q3 + (IQR*1.5) | x < Q1 - (IQR*1.5)
+}
+detect_outlier_SD <- function(x) {
+  mean <- mean(x)
+  SD <- sd(x)
+  x < mean - SD
+}
+judges <- judges |> 
+  mutate(median_time_outlier = detect_outlier(median_time), median_time_outlier_SD = detect_outlier_SD(median_time), left_click_outlier = detect_outlier(left_click_pcnt)) |> 
+  relocate(left_click_outlier, .after = left_click_pcnt) |> 
+  relocate(median_time_outlier, .after = median_time) |> 
+  relocate(median_time_outlier_SD, .after = median_time_outlier)
+
+```
+
+For each of these criteria:
+
+-   We have three misfitting judges.
+
+-   There were no outliers in terms of left click percentage.
+
+-   There were five judges with median response times faster than 40.8 seconds. Of these, two also misfit.
+
+The two judges who triggered two red flags (misfit and fast median response time) are excluded.
+
+We then rebuild the model the model without the removed judges:
+
+#### Final model
+
+```{r}
+#| label: model2
+#| results: hide
+#| warning: false
+decisions_64 <- decisions |> 
+  filter(judge_id != 11, judge_id != 42)
+mod2 <- btm_with_judges(decisions_64)
+mod2_SSR <- mod2$mle.rel
+```
+
+##### Reliability
+
+The SSR value for the final model is `r round(mod2_SSR, 3)`.
