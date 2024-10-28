@@ -52,3 +52,5 @@ rclone-automation
 rclone-automation/data/EFCAMDAT
 split_json/abcenv
 split_json/abcenv
+person-classifier
+whisper-101/whisper.cpp
