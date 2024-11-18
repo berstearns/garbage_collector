@@ -28,7 +28,7 @@ def parse_args():
         "--average", 
         type=str, 
         choices=["macro", "micro", "weighted"], 
-        default="macro", 
+        default="weighted", 
         help="Averaging method for precision, recall, F1 score ('macro', 'micro', or 'weighted')"
     )
     
