@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 float mean(float *a, int size_a){
-	float mean=0.0f;
+	float total_sum=0.0f;
 	for(int i=0;i<size_a;i++){
-		printf("%f\t", a[i]); 
-		mean+=a[i];
+		total_sum+=a[i];
 	}
-	mean /= size_a;
+	float mean = total_sum / size_a;
 	return mean;
+}
+
+float median(float *a, int size){
+	return 0.f;
 }
 
 void assign_value_to(float v, float *a, int *PCURR_N){
@@ -28,4 +31,8 @@ int main(){
 	assign_value_to(2.f, arr, PCURR_N);
 	assign_value_to(3.f, arr, PCURR_N);
 	printf("%f", mean(arr, *PCURR_N));
+
+    	free(arr);
+    	free(PCURR_N);
+
 }
