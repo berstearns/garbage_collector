@@ -9,9 +9,6 @@ float mean(float *a, int size_a){
 	return mean;
 }
 
-float median(float *a, int size){
-	return 0.f;
-}
 
 void assign_value_to(float v, float *a, int *PCURR_N){
 	a[*PCURR_N] = v;
@@ -34,5 +31,4 @@ int main(){
 
     	free(arr);
     	free(PCURR_N);
-
 }
