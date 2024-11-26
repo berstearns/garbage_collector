@@ -9,10 +9,12 @@ class FlatMultiClassLogisticRegressionModel(torch.nn.Module):
     def __init__(self, input_size, num_classes):
         super(FlatMultiClassLogisticRegressionModel, self).__init__()
         self.linear = torch.nn.Linear(input_size, num_classes)
+        self.softmax = torch.nn.functional.softmax 
     
     def forward(self, flat_x):
         logits = self.linear(flat_x)  # Apply linear transformation
-        return logits  # Output logits (no sigmoid needed in CrossEntropyLoss)
+        probas = self.softmax(logits, dim=1)
+        return logits, probas  # Output logits (no sigmoid needed in CrossEntropyLoss)
 
 @dataclass
 class Config:
@@ -22,7 +24,6 @@ class Config:
     model_name: str = None
     
     def __post_init__(self):
-        print(dir(self))
         for field in self.__dataclass_fields__:
             if self.__getattribute__(field) == None:
                 raise Exception(f"Missing {field} field")
@@ -46,6 +47,18 @@ def save_model(model, config, model_save_path):
         }
     }, model_save_path)
 
+def load_model(model_save_path):
+    # Load the model and configuration
+    checkpoint = torch.load(model_save_path)
+    input_size = checkpoint['model_architecture']['input_size']
+    num_classes = checkpoint['model_architecture']['num_classes']
+    model = FlatMultiClassLogisticRegressionModel(
+            input_size=input_size,
+            num_classes=num_classes
+            )
+    model.load_state_dict(checkpoint['model_state_dict'])
+    return model, checkpoint
+
 
 if __name__ == "__main__":
     config = Config(
@@ -62,22 +75,11 @@ if __name__ == "__main__":
     save_model(model, config, model_save_path)
     print(f"Randomly initialized model saved to: {model_save_path}.pth")
 
-    def load_model(model_save_path):
-        # Load the model and configuration
-        checkpoint = torch.load(model_save_path)
-        input_size = checkpoint['model_architecture']['input_size']
-        num_classes = checkpoint['model_architecture']['num_classes']
-        model = FlatMultiClassLogisticRegressionModel(
-                input_size=input_size,
-                num_classes=num_classes
-                )
-        model.load_state_dict(checkpoint['model_state_dict'])
-        return model, checkpoint
-
     loaded_model, loaded_model_dict = load_model(model_save_path)
 
     # Example of making a prediction (random input tensor)
     with torch.no_grad():  # We don't need gradients for inference
         random_input = torch.randn(1, loaded_model_dict['model_architecture']['input_size'])  # Single example (1, 784)
-        output = loaded_model(random_input)  # Get logits (predictions)
-        print("Model output (logits):", output)
+        logits, probas = loaded_model(random_input)  # Get logits (predictions)
+        print("Model output (logits):", logits)
+        print("Model output (probas):", probas)
