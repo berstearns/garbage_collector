@@ -1,0 +1,1 @@
+rclone copyto --drive-shared-with-me --progress berstearns-gdrive:/CCT\ -\ trabalhos\ /1º\ Semestre/3\ -\ Strategic\ Thinking/Module\ Assessments/CA\ 2/ ./
