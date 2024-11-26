@@ -2,17 +2,6 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-# Define the model (Logistic Regression with Lasso Regularization)
-class LassoLogisticRegression(nn.Module):
-    def __init__(self, input_dim, output_dim):
-        super(LassoLogisticRegression, self).__init__()
-        # Linear layer (input -> output_dim)
-        self.linear = nn.Linear(input_dim, output_dim)
-
-    def forward(self, x):
-        # Softmax activation for multi-class classification
-        return self.linear(x)
-
 # Function to compute Lasso (L1) regularization
 def lasso_regularization(model, lambda_lasso):
     lasso_loss = 0
