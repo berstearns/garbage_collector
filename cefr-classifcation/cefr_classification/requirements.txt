@@ -5,3 +5,4 @@ pandas
 numpy
 jupyter
 gdown==5.2.0
+accelerate>=0.26.0

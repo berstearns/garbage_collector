@@ -80,12 +80,15 @@ def compute_metrics(p):
     accuracy = accuracy_score(p.label_ids, preds)
     f1 = f1_score(p.label_ids, preds, average='weighted')
     return {"accuracy": accuracy, "f1": f1}
+
 # Set up training arguments
 run_hash = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M") 
 output_dir=f'../models/{run_hash}'
 print(output_dir)
+
 if not os.path.isdir(output_dir):
     os.makedirs(output_dir)
+
 training_args = TrainingArguments(
     output_dir=output_dir,
     num_train_epochs=10,

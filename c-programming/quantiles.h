@@ -4,6 +4,6 @@
 #define QUANTILES_H
 
 // Function declarations
-float findMedian(int arr[], int n);
+float findMedian(float *arr, int n);
 
 #endif // QUANTILES_H

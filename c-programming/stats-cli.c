@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "sorting.h"
+#include "quantile.h"
 
 extern void GPTbubbleSort(float *arr, int n);
 

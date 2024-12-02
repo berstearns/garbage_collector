@@ -61,3 +61,6 @@ c-programming/calculate-average-of-array.o
 cefr-classifcation/bert_cefr_classification/datasets/NLP4CALL_2025_experiment
 cefr-classifcation/bert_cefr_classification/.env
 cefr-classifcation/bert_cefr_classification/modelling/models
+cefr-classifcation/cefr_classification/datasets/NLP4CALL_2025_experiment
+cefr-classifcation/cefr_classification/modelling/models
+cefr-classifcation/cefr_classification/.env

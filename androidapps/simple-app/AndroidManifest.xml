@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.berstearns.handmade_simple_native_android" versionCode="1" versionName="0.1">
+<uses-sdk android:minSdkVersion="9"/>
+<uses-sdk android:targetSdkVersion="29"/>
+<application android:label="Handmade Native Android" android:screenOrientation="landscape" android:debuggable="true">
+<activity android:name=".MainActivity">
+<intent-filter>
+<action android:name="android.intent.action.MAIN"/>
+<category android:name="android.intent.category.LAUNCHER"/>
+</intent-filter>
+</activity>
+</application>
+</manifest>
