@@ -65,3 +65,5 @@ cefr-classifcation/cefr_classification/datasets/NLP4CALL_2025_experiment
 cefr-classifcation/cefr_classification/modelling/models
 cefr-classifcation/cefr_classification/.env
 inex.html
+webassembly101/wasi-sdk-24.0-x86_64-linux
+webassembly101/wasi-sdk-24.0-x86_64-linux.tar.gz
