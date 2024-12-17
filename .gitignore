@@ -67,3 +67,4 @@ cefr-classifcation/cefr_classification/.env
 inex.html
 webassembly101/wasi-sdk-24.0-x86_64-linux
 webassembly101/wasi-sdk-24.0-x86_64-linux.tar.gz
+webassembly101/wasi-sdk-install.sh
