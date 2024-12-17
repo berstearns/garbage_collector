@@ -2,6 +2,6 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello World\n");
-    return 12871293;
+    printf("Hello World in Wasm\n");
+    return 7234;
 }
