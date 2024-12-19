@@ -15,6 +15,16 @@ class DownloadConfig:
     ANDREW_EXPERIMENT_ZIP_FOLDER_GDRIVE_ID: str = None
     BASE_FOLDER_CFG: str = EXPECTED_PROJECT_ROOT_FOLDER  # Default to the root folder of the project
 
+    @staticmethod
+    def checkConfigType(obj):
+        if isinstance(obj, str):
+            raise Exception("The yaml was loaded as a str")
+        elif isinstance(obj, dict): 
+            pass
+        else:
+            raise Exception("Something is wrong with yaml config file")
+        return obj
+
     def __post_init__(self):
         # Load configuration from YAML file
         self.load_config()
@@ -32,7 +42,7 @@ class DownloadConfig:
         """Load the configuration from the YAML file."""
         try:
             with open(self.CONFIG_FILE_PATH, 'r') as file:
-                config = yaml.load(file,Loader=yaml.Loader)
+                config = DownloadConfig.checkConfigType(yaml.load(file,Loader=yaml.Loader))
                 self.ANDREW_EXPERIMENT_ZIP_FOLDER_GDRIVE_ID = config.get('ANDREW_EXPERIMENT_ZIP_FOLDER_GDRIVE_ID', self.ANDREW_EXPERIMENT_ZIP_FOLDER_GDRIVE_ID)
                 self.BASE_FOLDER_CFG = config.get('BASE_FOLDER_CFG', self.BASE_FOLDER_CFG)
         except FileNotFoundError:
@@ -60,10 +70,10 @@ class DataDownloader:
         with zipfile.ZipFile(self.output_filepath, 'r') as zip_ref:
             zip_ref.extractall(self.output_filepath.replace(".zip",""))
 
-
 if __name__ == "__main__":
     # Load configuration from YAML
     config = DownloadConfig()
+    print(config);input("Continue ?")
     # Create a downloader with the config
     downloader = DataDownloader(config)
     # Start the download
