@@ -1,0 +1,19 @@
+,model_name,best_params,features_name,best_cv_score
+0,Logistic Regression,"{'C': 0.1, 'penalty': 'l2', 'solver': 'liblinear'}",scaled,0.7870112253136515
+1,Logistic Regression,"{'C': 10, 'penalty': 'l2', 'solver': 'liblinear'}",scaled_pca,0.7611104423263715
+2,Logistic Regression,"{'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs'}",SMOTE_scaled,0.8660674700131846
+3,Decision Tree,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}",scaled,0.7338110519332409
+4,Decision Tree,"{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}",scaled_pca,0.6311788527096686
+5,Decision Tree,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}",SMOTE_scaled,0.8611791818246487
+6,Random Forest,"{'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}",scaled,0.7790002195306737
+7,Random Forest,"{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}",scaled_pca,0.7263071964975728
+8,Random Forest,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}",SMOTE_scaled,0.9040594557273067
+9,k-Nearest Neighbors,"{'algorithm': 'auto', 'n_neighbors': 3}",scaled,0.5040423769410455
+10,k-Nearest Neighbors,"{'algorithm': 'auto', 'n_neighbors': 9}",scaled_pca,0.5797652253100224
+11,k-Nearest Neighbors,"{'algorithm': 'auto', 'n_neighbors': 3}",SMOTE_scaled,0.8263731415034862
+12,Support Vector Machine,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}",scaled,0.7853224842801514
+13,Support Vector Machine,"{'C': 0.1, 'gamma': 'scale', 'kernel': 'linear'}",scaled_pca,0.7521356340760773
+14,Support Vector Machine,"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",SMOTE_scaled,0.8991555512385171
+15,Neural Network,"{'activation': 'relu', 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'solver': 'sgd'}",scaled,0.781996297152247
+16,Neural Network,"{'activation': 'relu', 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'solver': 'sgd'}",scaled_pca,0.7559288603631736
+17,Neural Network,"{'activation': 'relu', 'hidden_layer_sizes': (50,), 'learning_rate': 'constant', 'solver': 'adam'}",SMOTE_scaled,0.9176441127976784
