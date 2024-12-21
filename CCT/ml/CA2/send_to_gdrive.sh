@@ -1,5 +1,6 @@
 rclone copyto --progress --drive-shared-with-me \
 	--exclude "send_to_gdrive.sh"\
+	--exclude "grading.md"\
 	./\
 	berstearns-gdrive:/CCT-trabalhos/1-semestre/2-machine-learning/module-assessments/CA2/
 
