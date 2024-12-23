@@ -1,0 +1,19 @@
+,model_name,features_name,test_f1_score,best_cv_score,test_accuracy,test_precision,test_recall,best_params,test_confusion_matrix
+0,Logistic Regression,normal,0.2928904079312957,0.330056486707072,0.296875,0.29441328004622497,0.296875,"{'C': 1, 'penalty': 'l2', 'solver': 'liblinear'}","[[19 17 12]
+ [18  9 11]
+ [22 10 10]]"
+1,Decision Tree,normal,0.24222272577455503,0.3552041851557427,0.2421875,0.24629520869755245,0.2421875,"{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}","[[12 21 15]
+ [20 10  8]
+ [20 13  9]]"
+2,Random Forest,normal,0.26077421815408086,0.33861762474308776,0.265625,0.2600668123720467,0.265625,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 50}","[[14 13 21]
+ [16  5 17]
+ [14 13 15]]"
+3,k-Nearest Neighbors,normal,0.3580977845683728,0.34578431655011144,0.359375,0.3597222222222222,0.359375,"{'algorithm': 'auto', 'n_neighbors': 7}","[[20 14 14]
+ [17 13  8]
+ [17 12 13]]"
+4,Support Vector Machine,normal,0.27967802604985403,0.33253792642153657,0.3046875,0.27864928831355906,0.3046875,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}","[[26 10 12]
+ [24  4 10]
+ [24  9  9]]"
+5,Neural Network,normal,0.25907738337043595,0.3371477461610388,0.2578125,0.26971344508811346,0.2578125,"{'activation': 'relu', 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'solver': 'adam'}","[[12 16 20]
+ [12  7 19]
+ [10 18 14]]"
