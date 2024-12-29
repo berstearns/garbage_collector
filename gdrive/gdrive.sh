@@ -18,12 +18,12 @@ pull() {
 push() {
     echo "Pushing files from $SCRIPT_FOLDERPATH to $REMOTE..."
     if [ "$SHARED" = true ]; then
-        rclone copyto --progress --drive-shared-with-me --exclude "*.sh" "$SCRIPT_FOLDERPATH" "$REMOTE:/celso-bernardo/gapster"
+        rclone copyto --progress --drive-shared-with-me "$SCRIPT_FOLDERPATH" "$REMOTE:/celso-bernardo/gapster"
     else
-        rclone copyto --progress --exclude "*.sh" "$SCRIPT_FOLDERPATH" "$REMOTE:/celso-bernardo/gapster"
+        rclone copyto --progress "$SCRIPT_FOLDERPATH" "$REMOTE:/celso-bernardo/gapster"
     fi
-
 }
+
 # Main script logic
 echo "The absolute path of this script is: $SCRIPT_FOLDERPATH"
 
