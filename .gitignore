@@ -1,3 +1,4 @@
 # Ignore everything in the gdrive folder
 gdrive/*
 !gdrive/gdrive.sh
+docs/venv
