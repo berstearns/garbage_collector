@@ -1,8 +1,10 @@
-transformers
-torch
-scikit-learn
-pandas
-numpy
-jupyter
+transformers==4.47.1
+torch==2.5.1
+scikit-learn==1.6.0
+numpy==2.2.1
+jupyter==1.1.1
+pandas==2.2.3
 gdown==5.2.0
-accelerate>=0.26.0
+accelerate==1.2.1
+matplotlib==3.10.0
+seaborn==0.13.2
