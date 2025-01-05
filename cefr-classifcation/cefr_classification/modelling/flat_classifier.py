@@ -63,7 +63,7 @@ def load_model(model_save_path):
 if __name__ == "__main__":
     config = Config(
         input_size=4,   # Example input size for 28x28 image data
-        num_classes=6,     # Example for a 10-class classification problem (like MNIST)
+        num_classes=5,     # Example for a 10-class classification problem (like MNIST)
         output_folder="models",  # Where to save the model
         model_name="CefrFlatMultiClassLogisticRegressionModel.pth",  # Where to save the model
     )
