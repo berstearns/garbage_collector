@@ -138,5 +138,3 @@ evaluate_and_report(train_dataset, train_labels, "train")
 
 # Evaluate and report on validation (test) set
 evaluate_and_report(val_dataset, val_labels, "test")
-
-
