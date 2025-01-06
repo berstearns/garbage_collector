@@ -1,0 +1,110 @@
+classDiagram
+    class IContextComponent {
+        <<interface>>
+        +id: str
+    }
+
+    class Sentence {
+        +id: str
+        +text: str
+    }
+
+    class Word {
+        +id: str
+        +value: str
+    }
+
+    class WordPair {
+        +id: str
+        +word1: Word
+        +word2: Word
+    }
+
+    class Bigram {
+        +id: str
+        +word1: str
+        +word2: str
+    }
+
+    class Image {
+        +id: str
+        +url: str
+    }
+
+    class Context {
+        +id: str
+        +description: str
+        +components: List~IContextComponent~
+        +add_component(component: IContextComponent)
+    }
+
+    class Activity {
+        +id: str
+        +name: str
+        +context: Context
+        +skills: List~Skill~
+    }
+
+    class ActivityCollection {
+        +name: str
+        +criteria: str
+        +activities: List~Activity~
+        +add_activity(activity: Activity)
+    }
+
+    class Skill {
+        +id: str
+        +description: str
+        +is_correct: bool
+        +positive_examples: List~PositiveExample~
+        +negative_examples: List~NegativeExample~
+    }
+
+    class PositiveExample {
+        +id: str
+        +example_text: str
+    }
+
+    class NegativeExample {
+        +id: str
+        +example_text: str
+    }
+
+    class Session {
+        +id: str
+        +name: str
+        +activities: List~Activity~
+        +add_activity(activity: Activity)
+    }
+
+    class Assessment {
+        +id: str
+        +name: str
+        +activities: List~Activity~
+        +sessions: List~Session~
+        +add_activity(activity: Activity)
+        +add_session(session: Session)
+    }
+
+    IContextComponent <|-- Sentence
+    IContextComponent <|-- Word
+    IContextComponent <|-- WordPair
+    IContextComponent <|-- Bigram
+    IContextComponent <|-- Image
+
+    Context "1" *-- "1..*" IContextComponent : contains
+    Activity "1" *-- "1" Context : has
+    ActivityCollection "1" *-- "0..*" Activity : contains
+
+    WordPair "1" *-- "2" Word : composed of
+
+    Skill "1" *-- "0..*" PositiveExample : has
+    Skill "1" *-- "0..*" NegativeExample : has
+    Skill "1" *-- "1..*" Word : uses
+    Skill "1" *-- "0..*" WordPair : uses
+
+    Session "1" *-- "0..*" Activity : contains
+    Activity "1" *-- "1..*" Skill : related to
+
+    Assessment "1" *-- "0..*" Activity : contains
+    Assessment "1" *-- "0..*" Session : done in
