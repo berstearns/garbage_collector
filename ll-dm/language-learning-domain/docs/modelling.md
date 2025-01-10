@@ -12,10 +12,8 @@ An activity always has a context
 # 3.
 A WordPair is compounded by two single words
 
-
 # 4.
-An Activity collection is a collection of activties according to a certain criteria
-
+An Activity collection is a collection of activties according to a certain TargetObjective
 
 # 5. 
 A skill is the usage of a word or a set of words that can be clear flagged as right/wrong 
@@ -34,6 +32,12 @@ An assessment has a collection of activities
 
 # 10.
 An assessment can be done in one or many sessions
+
+# 11.
+The learner has a list of topics he is intereted in
+
+# 12.
+each topic has a list of ContentItems
 
 
 
