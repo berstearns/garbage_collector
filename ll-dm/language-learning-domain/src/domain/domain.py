@@ -2,6 +2,26 @@ from abc import ABC, abstractmethod
 from typing import List
 
 # ==============================================
+# 0. TargetLanguage and TargetObjective
+# ==============================================
+
+class TargetLanguage:
+    def __init__(self, id: str, name: str):
+        self.id = id
+        self.name = name
+
+    def __str__(self):
+        return f"TargetLanguage(ID: {self.id}, Name: {self.name})"
+
+class TargetObjective:
+    def __init__(self, id: str, name: str):
+        self.id = id
+        self.name = name
+
+    def __str__(self):
+        return f"TargetObjective(ID: {self.id}, Name: {self.name})"
+
+# ==============================================
 # 1. Context and its Components
 # ==============================================
 
@@ -91,10 +111,11 @@ class Context:
 # ==============================================
 
 class Activity:
-    def __init__(self, id: str, name: str, context: Context):
+    def __init__(self, id: str, name: str, context: Context, target_objective: TargetObjective):
         self.id = id
         self.name = name
         self.context = context
+        self.target_objective = target_objective
         self.skills: List["Skill"] = []
 
     def add_skill(self, skill: "Skill"):
@@ -102,7 +123,10 @@ class Activity:
 
     def __str__(self):
         skill_details = "\n".join([f"- {s}" for s in self.skills])
-        return f"Activity(ID: {self.id}, Name: {self.name}, Context: {self.context.id})\nSkills:\n{skill_details}"
+        return (
+            f"Activity(ID: {self.id}, Name: {self.name}, Context: {self.context.id}, "
+            f"TargetObjective: {self.target_objective.name})\nSkills:\n{skill_details}"
+        )
 
 # ==============================================
 # 3. WordPair as a Composition of Two Words
@@ -115,9 +139,10 @@ class Activity:
 # ==============================================
 
 class ActivityCollection:
-    def __init__(self, name: str, criteria: str):
+    def __init__(self, id: str, name: str, target_objective: TargetObjective):
+        self.id = id
         self.name = name
-        self.criteria = criteria
+        self.target_objective = target_objective
         self.activities: List[Activity] = []
 
     def add_activity(self, activity: Activity):
@@ -125,7 +150,10 @@ class ActivityCollection:
 
     def __str__(self):
         activity_details = "\n".join([f"- {a}" for a in self.activities])
-        return f"ActivityCollection(Name: {self.name}, Criteria: {self.criteria})\nActivities:\n{activity_details}"
+        return (
+            f"ActivityCollection(ID: {self.id}, Name: {self.name}, "
+            f"TargetObjective: {self.target_objective.name})\nActivities:\n{activity_details}"
+        )
 
 # ==============================================
 # 5. Skill and its Relationship with Words/WordPairs
@@ -226,10 +254,69 @@ class Assessment:
         )
 
 # ==============================================
+# 10. Learner Entity
+# ==============================================
+
+class Learner:
+    def __init__(self, id: str, name: str, target_language: TargetLanguage):
+        self.id = id
+        self.name = name
+        self.target_language = target_language
+        self.activities: List[Activity] = []
+        self.topics_of_interest: List["TopicOfInterest"] = []
+
+    def add_activity(self, activity: Activity):
+        self.activities.append(activity)
+
+    def add_topic_of_interest(self, topic: "TopicOfInterest"):
+        self.topics_of_interest.append(topic)
+
+    def __str__(self):
+        activity_details = "\n".join([f"- {a}" for a in self.activities])
+        topic_details = "\n".join([f"- {t}" for t in self.topics_of_interest])
+        return (
+            f"Learner(ID: {self.id}, Name: {self.name}, "
+            f"TargetLanguage: {self.target_language.name})\n"
+            f"Activities:\n{activity_details}\n"
+            f"Topics of Interest:\n{topic_details}"
+        )
+
+# ==============================================
+# 11. TopicOfInterest and TopicContentItem
+# ==============================================
+
+class TopicOfInterest:
+    def __init__(self, id: str, name: str):
+        self.id = id
+        self.name = name
+        self.content_items: List["TopicContentItem"] = []
+
+    def add_content_item(self, content_item: "TopicContentItem"):
+        self.content_items.append(content_item)
+
+    def __str__(self):
+        content_details = "\n".join([f"- {c}" for c in self.content_items])
+        return f"TopicOfInterest(ID: {self.id}, Name: {self.name})\nContent Items:\n{content_details}"
+
+class TopicContentItem:
+    def __init__(self, id: str, title: str, description: str, url: str):
+        self.id = id
+        self.title = title
+        self.description = description
+        self.url = url
+
+    def __str__(self):
+        return f"TopicContentItem(ID: {self.id}, Title: {self.title}, URL: {self.url})"
+
+# ==============================================
 # Main Program to Test the Implementation
 # ==============================================
 
 if __name__ == "__main__":
+    # Create TargetLanguage and TargetObjective
+    target_language = TargetLanguage(id="lang1", name="English")
+    target_objective = TargetObjective(id="obj1", name="Improve Vocabulary")
+
     # Create components
     word1 = Word(id="word1", value="hello")
     word2 = Word(id="word2", value="world")
@@ -247,8 +334,8 @@ if __name__ == "__main__":
     context.add_component(sentence)
     context.add_component(image)
 
-    # Create an activity with the context
-    activity = Activity(id="act1", name="Sample Activity", context=context)
+    # Create an activity with the context and target objective
+    activity = Activity(id="act1", name="Sample Activity", context=context, target_objective=target_objective)
 
     # Create a skill
     skill = Skill(id="skill1", description="Using 'hello' and 'world' correctly", is_correct=True)
@@ -266,7 +353,7 @@ if __name__ == "__main__":
     activity.add_skill(skill)
 
     # Create an activity collection and add the activity
-    activity_collection = ActivityCollection(name="Sample Collection", criteria="All activities")
+    activity_collection = ActivityCollection(id="coll1", name="Sample Collection", target_objective=target_objective)
     activity_collection.add_activity(activity)
 
     # Create a session and add the activity
@@ -278,8 +365,26 @@ if __name__ == "__main__":
     assessment.add_activity(activity)
     assessment.add_session(session)
 
+    # Create a learner and add the activity
+    learner = Learner(id="learner1", name="John Doe", target_language=target_language)
+    learner.add_activity(activity)
+
+    # Create a topic of interest and add content items
+    topic = TopicOfInterest(id="topic1", name="Technology")
+    content_item1 = TopicContentItem(id="content1", title="AI in Education", description="How AI is transforming education", url="https://example.com/ai-education")
+    content_item2 = TopicContentItem(id="content2", title="Programming Basics", description="Learn the basics of programming", url="https://example.com/programming-basics")
+    topic.add_content_item(content_item1)
+    topic.add_content_item(content_item2)
+
+    # Add the topic of interest to the learner
+    learner.add_topic_of_interest(topic)
+
     # Print everything
-    print("===== Context =====")
+    print("===== Target Language =====")
+    print(target_language)
+    print("\n===== Target Objective =====")
+    print(target_objective)
+    print("\n===== Context =====")
     print(context)
     print("\n===== Activity =====")
     print(activity)
@@ -291,3 +396,8 @@ if __name__ == "__main__":
     print(session)
     print("\n===== Assessment =====")
     print(assessment)
+    print("\n===== Learner =====")
+    print(learner)
+    print("\n===== Topic of Interest =====")
+    print(topic)
+
