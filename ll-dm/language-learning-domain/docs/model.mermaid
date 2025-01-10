@@ -1,4 +1,73 @@
 classDiagram
+        class TeachingBook {
+        +id: str
+        +title: str
+        +level: str
+    }
+
+    class Unit {
+        +id: str
+        +name: str
+        +teaching_book_id: str
+    }
+
+    class Chapter {
+        +id: str
+        +name: str
+        +unit_id: str
+    }
+
+    class Section {
+        +id: str
+        +name: str
+        +learning_objective: str
+        +chapter_id: str
+    }
+
+    class TeachingBookLearningObjective {
+        +id: str
+        +name: str
+        +section_id: str
+    }
+
+    class TeachingBookActivityItem {
+        +id: str
+        +item_type: str
+        +item_text: str
+        +section_id: str
+    }
+
+    class TargetLanguage {
+        +id: str
+        +name: str
+    }
+
+    class TargetObjective {
+        +id: str
+        +name: str
+    }
+
+    class Learner {
+        +id: str
+        +name: str
+        +targetLanguage: TargetLanguage
+        +activities: List~Activity~
+        +topicsOfInterest: List~TopicOfInterest~
+    }
+
+    class TopicOfInterest {
+        +id: str
+        +name: str
+        +contentItems: List~TopicContentItem~
+    }
+
+    class TopicContentItem {
+        +id: str
+        +title: str
+        +description: str
+        +url: str
+    }
+
     class IContextComponent {
         <<interface>>
         +id: str
@@ -43,11 +112,13 @@ classDiagram
         +name: str
         +context: Context
         +skills: List~Skill~
+        +targetObjective: TargetObjective
     }
 
     class ActivityCollection {
+        +id: str
         +name: str
-        +criteria: str
+        +targetObjective: TargetObjective
         +activities: List~Activity~
         +add_activity(activity: Activity)
     }
@@ -86,6 +157,10 @@ classDiagram
         +add_session(session: Session)
     }
 
+    TargetLanguage "1" *-- "0..*" Learner : has
+    TargetObjective "1" *-- "0..*" Activity : has
+    TargetObjective "1" *-- "0..*" ActivityCollection : has
+
     IContextComponent <|-- Sentence
     IContextComponent <|-- Word
     IContextComponent <|-- WordPair
@@ -108,3 +183,13 @@ classDiagram
 
     Assessment "1" *-- "0..*" Activity : contains
     Assessment "1" *-- "0..*" Session : done in
+
+    Learner "1" *-- "0..*" Activity : performs
+    Learner "1" *-- "0..*" TopicOfInterest : interested in
+    TopicOfInterest "1" *-- "0..*" TopicContentItem : contains
+
+    TeachingBook "1" *-- "1..*" Unit : contains
+    Unit "1" *-- "1..*" Chapter : contains
+    Chapter "1" *-- "1..*" Section : contains
+    Section "1" *-- "1..*" TeachingBookActivityItem : contains
+    Section "1" *-- "1" TeachingBookLearningObjective : has
