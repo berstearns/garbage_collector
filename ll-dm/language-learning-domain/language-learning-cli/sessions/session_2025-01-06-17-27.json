@@ -1,0 +1,93 @@
+{
+  "cards": [
+    {
+      "question": "What is a noun?",
+      "answer": "Answer to What is a noun?",
+      "answers": [
+        "yes"
+      ]
+    },
+    {
+      "question": "What is a verb?",
+      "answer": "Answer to What is a verb?",
+      "answers": null
+    },
+    {
+      "question": "What is 2 + 2?",
+      "answer": "Answer to What is 2 + 2?",
+      "answers": [
+        "ik",
+        "4"
+      ]
+    },
+    {
+      "question": "What is 3 * 3?",
+      "answer": "Answer to What is 3 * 3?",
+      "answers": [
+        "9",
+        "maybe 10"
+      ]
+    }
+  ],
+  "position": 3,
+  "flipped": false,
+  "log": [
+    {
+      "action": "NEXT_CARD",
+      "timestamp": "2025-01-06T17:26:58.822221808Z"
+    },
+    {
+      "action": "NEXT_CARD",
+      "timestamp": "2025-01-06T17:26:59.289209769Z"
+    },
+    {
+      "action": "NEXT_CARD",
+      "timestamp": "2025-01-06T17:26:59.430192739Z"
+    },
+    {
+      "action": "WRITE_ANSWER",
+      "timestamp": "2025-01-06T17:27:02.374979674Z"
+    },
+    {
+      "action": "WRITE_ANSWER",
+      "timestamp": "2025-01-06T17:27:05.08916682Z"
+    },
+    {
+      "action": "PREV_CARD",
+      "timestamp": "2025-01-06T17:27:06.016523427Z"
+    },
+    {
+      "action": "WRITE_ANSWER",
+      "timestamp": "2025-01-06T17:27:12.310457963Z"
+    },
+    {
+      "action": "WRITE_ANSWER",
+      "timestamp": "2025-01-06T17:27:14.990054431Z"
+    },
+    {
+      "action": "PREV_CARD",
+      "timestamp": "2025-01-06T17:27:18.389044529Z"
+    },
+    {
+      "action": "PREV_CARD",
+      "timestamp": "2025-01-06T17:27:18.633221803Z"
+    },
+    {
+      "action": "WRITE_ANSWER",
+      "timestamp": "2025-01-06T17:27:21.998059797Z"
+    },
+    {
+      "action": "NEXT_CARD",
+      "timestamp": "2025-01-06T17:27:22.608889518Z"
+    },
+    {
+      "action": "NEXT_CARD",
+      "timestamp": "2025-01-06T17:27:22.758460166Z"
+    },
+    {
+      "action": "NEXT_CARD",
+      "timestamp": "2025-01-06T17:27:22.90738048Z"
+    }
+  ],
+  "WriteAnswer": false
+}

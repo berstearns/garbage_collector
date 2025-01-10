@@ -1,14 +1,14 @@
+from collections import defaultdict
 from typing import Union, TypeVar, List, Callable
-import pandas as pd
+import logging
+import nltk
 import numpy as np
+import pandas as pd
 import re
 import string
 import sys
-import nltk
-import logging
 import torch
-import pandas as pd
-from collections import defaultdict
+import transformers
 
 class CleaningPipeline:
     def __init__(self):
@@ -109,7 +109,7 @@ class Text2SentencePipeline:
         else:
             raise TypeError("Input type not supported. Must be str, list, or pandas DataFrame.")
             
-class MLMPerplexityCalculator(CLMPerplexityPipeline):
+class MLMPerplexityCalculator:
     def calculate_perplexity(self, text):
         """
         Calculate perplexity for a single text input using masked language modeling.
@@ -148,8 +148,8 @@ class CLMPerplexityPipeline:
             device (str): Device to run the model on (e.g., "cuda" or "cpu"). If None, auto-detects.
         """
         self.device = device if device else ("cuda" if torch.cuda.is_available() else "cpu")
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModelForCausalLM.from_pretrained(model_name).to(self.device)
+        self.tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
+        self.model = transformers.AutoModelForCausalLM.from_pretrained(model_name).to(self.device)
         self.model.eval()  # Set the model to evaluation mode
 
     def calculate_perplexity(self, text):
