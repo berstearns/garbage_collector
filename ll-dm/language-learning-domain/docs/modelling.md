@@ -40,6 +40,20 @@ The learner has a list of topics he is intereted in
 each topic has a list of ContentItems
 
 
+Teaching Book Hierarchy:
+
+# 13.
+A TeachingBook contains Unit objects, which contain Chapter objects, which contain Section objects, which contain ActivityItem objects.
+
+# 14.
+Each section contain at least one LearningObjective
+
+# 15. 
+Each ActivityItem is transformed into an Activity with a Context and TargetObjective.
+
+
+
+
 
 
 ##### Services
