@@ -71,3 +71,4 @@ webassembly101/wasi-sdk-install.sh
 nextjs/dummyapp
 cefr-classifcation/cefr_classification/datasets
 cefr-classifcation/cefr_classification/models
+cefr-classifcation/cefr_classification/notebooks/tmp.csv
