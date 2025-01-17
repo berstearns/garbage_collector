@@ -1,3 +1,3 @@
-from .QuestionGeneration import QuestionGeneration
+from .QuestionGeneration import QuestionGenerationPipeline, QuestionGenerationConfig
 
-__all__ = ['QuestionGeneration']
+__all__ = ["QuestionGenerationPipeline", "QuestionGenerationConfig"]

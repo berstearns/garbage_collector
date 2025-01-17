@@ -1,8 +1,10 @@
 from dataclasses import dataclass
 from jinja2 import Template
 
+
 class MissingPromptLoader(Exception):
     pass
+
 
 @dataclass
 class PromptLoaderConfig:
@@ -12,8 +14,8 @@ class PromptLoaderConfig:
     def __post_init__(self):
         for key in self.__dataclass_fields__:
             if self.__getattribute__(key) is None:
-                raise MissingPromptLoader\
-                            (f"missing {key} config property")
+                raise MissingPromptLoader(f"missing {key} config property")
+
 
 class PromptLoader:
     def __init__(self, config_dict):
@@ -27,6 +29,6 @@ class PromptLoader:
             with open(self.config.SYSTEM_TEMPLATE_FP) as inpf:
                 system_template = Template(inpf.read())
         else:
-                system_template = Template("")
+            system_template = Template("")
 
         return system_template, prompt_template

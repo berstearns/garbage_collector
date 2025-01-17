@@ -3,3 +3,4 @@ gdrive/*
 !gdrive/gdrive.sh
 docs/venv
 knowledge_engineering/clients/pip-user/venv
+knowledge_engineering/clients/pip-user/data
