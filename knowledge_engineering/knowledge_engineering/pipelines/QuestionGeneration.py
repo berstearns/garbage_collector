@@ -22,13 +22,15 @@ Usage example:
     quesiton_gen.run()
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from typing import Optional
 import json
 import os
 from datetime import datetime
 
 # from hf_olmo import OLMoForCausalLM, OLMoTokenizerFast
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
+from ollama import Client as Ollamaclient
 
 
 class MissingFileInQuestionGenerationConfig(Exception):
@@ -61,36 +63,72 @@ class QuestionGenerationConfig:
         KG_FP (str): File path for input text.
         OUTPUT_FOLDER (str): Folder path for output data.
         MODEL_NAME (str): Name of the model to use (e.g., "gpt2", "allenai/OLMo-7B", or "llama2").
-        CLIENT (str): The client to use for model inference. Must be either "ollama" or "huggingface" (case-insensitive).
-        OLLAMA_API_URL (str): URL for the Ollama API (if using Ollama).
+        CLIENT (str): The client to use for model inference. Must be one of the options in ClientOptions.
+        OLLAMA_API_URL (Optional[str]): URL for the Ollama API (if using Ollama). Defaults to None.
+
+    Derived Attributes:
+        _normalized_modelname (str): Normalized version of MODEL_NAME for file naming.
     """
 
-    KG_FP: str = None
-    OUTPUT_FOLDER: str = None
-    MODEL_NAME: str = None
-    CLIENT: str = None
+    KG_FP: str
+    OUTPUT_FOLDER: str
+    MODEL_NAME: str
+    CLIENT: str
+    PORT: Optional[str] = None
+
+    # Derived attributes (not part of the constructor)
+    _normalized_modelname: str = None
 
     def __post_init__(self):
         """
-        Post-initialization to validate configuration properties.
-
-        Raises:
-            MissingQuestionGenerationConfigException: If a required property is missing.
-            ValueError: If the CLIENT is not "ollama" or "huggingface" (case-insensitive).
+        Post-initialization to validate configuration properties and compute derived attributes.
         """
-        # Check for missing required fields
+        self._validate_client()
+        self._validate_conditional_configs()
+        self._compute_derived_attributes()
+        self._validate_required_fields()
+
+    def _validate_required_fields(self):
+        """
+        Validate that all required fields are provided.
+        """
         for key in self.__dataclass_fields__:
-            if self.__getattribute__(key) is None and key != "OLLAMA_API_URL":
+            if self.__getattribute__(key) is None and key != "PORT":
                 raise MissingQuestionGenerationConfigException(
                     f"Missing {key} config property"
                 )
 
+    def _validate_client(self):
+        """
+        Validate that the CLIENT is one of the supported options.
+        """
         self.CLIENT = self.CLIENT.lower()  # Ensure case-insensitive comparison
         valid_clients = [ClientOptions.OLLAMA, ClientOptions.HUGGINGFACE]
         if self.CLIENT not in valid_clients:
             raise ValueError(
                 f"Invalid CLIENT: {self.CLIENT}. Must be one of {valid_clients}."
             )
+
+    def _validate_conditional_configs(self):
+        """
+        Validate conditional configurations based on the CLIENT.
+        """
+        if self.CLIENT == ClientOptions.OLLAMA:
+            if not self.PORT:
+                raise MissingQuestionGenerationConfigException(
+                    "A PORT is required when CLIENT is 'ollama'."
+                )
+            # Additional validation for Ollama-specific configurations can be added here
+        elif self.CLIENT == ClientOptions.HUGGINGFACE:
+            # Additional validation for Hugging Face-specific configurations can be added here
+            pass
+
+    def _compute_derived_attributes(self):
+        """
+        Compute derived attributes based on user-provided configurations.
+        """
+        # Normalize MODEL_NAME for file naming
+        self._normalized_modelname = self.MODEL_NAME.replace("/", "-")
 
 
 class QuestionGenerationPipeline:
@@ -147,7 +185,7 @@ class QuestionGenerationPipeline:
         # else:
         if self.config.CLIENT == ClientOptions.OLLAMA:
             self.generator = self._ollama_pipeline
-        if self.config.CLIENT == ClientOptions.OLLAMA:
+        if self.config.CLIENT == ClientOptions.HUGGINGFACE:
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.config.MODEL_NAME, trust_remote_code=True
             )
@@ -168,6 +206,7 @@ class QuestionGenerationPipeline:
             "messages": [{"role": "user", "content": prompt_instance}],
             "stream": True,
         }
+        self.client = Ollamaclient(host=f"http://localhost:{self.config.PORT}")
         stream = self.client.chat(**chat_args)
 
         full_message = ""

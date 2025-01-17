@@ -9,15 +9,12 @@ from knowledge_engineering import PromptLoaderConfig, PromptLoader,\
                 QuestionGenerationPipeline, QuestionGenerationConfig 
 
 art_id="school-boy_van-gogh"
-QG_config = {
+SG_config = {
         "KG_FP": f"./data/data.md",
         #"INPUT_FP":"./data/chunks/raw_text/hamlet_act1_chunks_6.txt",
         "OUTPUT_FOLDER": f"./data/questions",
-        "MODEL_NAME": 'olmo2',
-        "CLIENT": "ollama",
-        "PORT": 11434
-        # 'allenai/OLMo-2-1124-7B-Instruct',
-        #'allenai/OLMo-1B',#gpt2'#'olmo2',#'mixtral',
+        "MODEL_NAME":'olmo2',#'mixtral',
+        #"PORT": 11434
 }
 
 prompt_config = {
@@ -27,5 +24,5 @@ prompt_config = {
 
 prompter = PromptLoader(prompt_config)
 
-taskRunner = QuestionGenerationPipeline(QG_config, prompter)
+taskRunner = QuestionGenerationPipeline(SG_config, prompter)
 taskRunner.run()
