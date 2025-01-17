@@ -26,23 +26,31 @@ from dataclasses import dataclass
 import json
 import os
 from datetime import datetime
+
 # from hf_olmo import OLMoForCausalLM, OLMoTokenizerFast
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
 
+
 class MissingFileInQuestionGenerationConfig(Exception):
     """Exception raised when a file is missing in the QuestionGenerationConfig."""
+
     pass
+
 
 class MissingQuestionGenerationConfigException(Exception):
     """Exception raised when a required QuestionGenerationConfig property is missing."""
+
     pass
+
 
 class ClientOptions:
     """
     Class to hold static variables (constants) for client options.
     """
+
     OLLAMA = "ollama"
     HUGGINGFACE = "huggingface"
+
 
 @dataclass
 class QuestionGenerationConfig:
@@ -56,6 +64,7 @@ class QuestionGenerationConfig:
         CLIENT (str): The client to use for model inference. Must be either "ollama" or "huggingface" (case-insensitive).
         OLLAMA_API_URL (str): URL for the Ollama API (if using Ollama).
     """
+
     KG_FP: str = None
     OUTPUT_FOLDER: str = None
     MODEL_NAME: str = None
@@ -72,12 +81,17 @@ class QuestionGenerationConfig:
         # Check for missing required fields
         for key in self.__dataclass_fields__:
             if self.__getattribute__(key) is None and key != "OLLAMA_API_URL":
-                raise MissingQuestionGenerationConfigException(f"Missing {key} config property")
+                raise MissingQuestionGenerationConfigException(
+                    f"Missing {key} config property"
+                )
 
         self.CLIENT = self.CLIENT.lower()  # Ensure case-insensitive comparison
         valid_clients = [ClientOptions.OLLAMA, ClientOptions.HUGGINGFACE]
         if self.CLIENT not in valid_clients:
-            raise ValueError(f"Invalid CLIENT: {self.CLIENT}. Must be one of {valid_clients}.")   
+            raise ValueError(
+                f"Invalid CLIENT: {self.CLIENT}. Must be one of {valid_clients}."
+            )
+
 
 class QuestionGenerationPipeline:
     """
@@ -126,36 +140,40 @@ class QuestionGenerationPipeline:
         """
         self.config = QuestionGenerationConfig(**config_dict)
         self.promptLoader = promptLoader
-                # Choose the appropriate model and tokenizer based on the MODEL_NAME
-        #if "olmo" in self.config.MODEL_NAME.lower():
+        # Choose the appropriate model and tokenizer based on the MODEL_NAME
+        # if "olmo" in self.config.MODEL_NAME.lower():
         #   self.model = OLMoForCausalLM.from_pretrained(self.config.MODEL_NAME)
         #   self.tokenizer = OLMoTokenizerFast.from_pretrained(self.config.MODEL_NAME)
-        #else:
+        # else:
         if self.config.CLIENT == ClientOptions.OLLAMA:
             self.generator = self._ollama_pipeline
         if self.config.CLIENT == ClientOptions.OLLAMA:
-            self.model = AutoModelForCausalLM.from_pretrained(self.config.MODEL_NAME, trust_remote_code=True)
+            self.model = AutoModelForCausalLM.from_pretrained(
+                self.config.MODEL_NAME, trust_remote_code=True
+            )
             self.tokenizer = AutoTokenizer.from_pretrained(self.config.MODEL_NAME)
-            self.generator = self._hf_pipeline 
+            self.generator = self._hf_pipeline
 
     def _hf_pipeline(self, prompt_instance, **kwargs):
-        pipeline = pipeline('text-generation', model=self.model, tokenizer=self.tokenizer)
-        return pipeline(prompt_instance,max_length=500, num_return_sequences=1)[0]['generated_text']
+        pipeline = pipeline(
+            "text-generation", model=self.model, tokenizer=self.tokenizer
+        )
+        return pipeline(prompt_instance, max_length=500, num_return_sequences=1)[0][
+            "generated_text"
+        ]
 
     def _ollama_pipeline(self, prompt_instance, **kwargs):
-            chat_args = {
-                "model": self.config.MODEL_NAME,
-                "messages": [
-                    {'role': 'user', 'content': prompt_instance}
-                ],
-                "stream": True
-            }
-            stream = self.client.chat(**chat_args)
+        chat_args = {
+            "model": self.config.MODEL_NAME,
+            "messages": [{"role": "user", "content": prompt_instance}],
+            "stream": True,
+        }
+        stream = self.client.chat(**chat_args)
 
-            full_message = ""
-            for chunk in stream:
-                full_message += chunk['message']['content']
-            return full_message
+        full_message = ""
+        for chunk in stream:
+            full_message += chunk["message"]["content"]
+        return full_message
 
     def load_prompt_template(self):
         """Loads the prompt using the prompt loader."""
@@ -171,7 +189,9 @@ class QuestionGenerationPipeline:
             elif self.config.KG_FP.endswith(".json"):
                 texts = json.load(inpf)
             else:
-                raise ValueError("Make sure your input file is either a single text txt file or a json array.")
+                raise ValueError(
+                    "Make sure your input file is either a single text txt file or a json array."
+                )
 
         system_prompt_template, prompt_template = self.load_prompt_template()
         system_instruction = system_prompt_template.render()
@@ -187,7 +207,9 @@ class QuestionGenerationPipeline:
                 continue
 
             # Generate text using Hugging Face model
-            generated_text = self.generator(prompt_instance, max_length=500, num_return_sequences=1) 
+            generated_text = self.generator(
+                prompt_instance, max_length=500, num_return_sequences=1
+            )
 
             with open(output_fp, "w") as outf:
                 outf.write(generated_text)
